@@ -61,6 +61,16 @@ export default function Home() {
         Click on the policies in the timeline to see them in detail.
       </SectionDisplay>
       <SectionDisplay 
+        icon="exchange-alt"
+        sectionEx=""
+        headerText="Changes"
+        btnDisplay
+        btnText="See Changes"
+      >
+        Look at the changes in Singapore based on the policies, 
+        or simply see an overview of all changes due to all the government policies implmented.
+      </SectionDisplay>
+      <SectionDisplay 
         icon="comments"
         sectionEx="pb-5"
         headerText="Interviews"
