@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import PageTemplate from "../components/PageTemplate";
 
-import TestImg from "../img/test-img.png";
+import TestImg from "../img/test-img.svg";
 
 import SectionDisplay from "../components/Home/SectionDisplay"
 
