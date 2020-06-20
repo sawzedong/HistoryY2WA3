@@ -24,6 +24,9 @@ This websites functions on the following dependencies:
 #### Page Styling
 + [Animate on Scroll (AOS)](https://github.com/michalsnik/aos)
 + [Bootstrap](https://getbootstrap.com/)
++ [Popper.js](https://popper.js.org/)
++ [jQuery](https://jquery.com/)
++ [FontAwesome](https://fontawesome.com/)
 
 If your browser cannot display the website, please ensure that these dependencies were not blocked.
 
