@@ -1,0 +1,54 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  nav {
+    background-color: rgba(27, 44, 85, 0.95);
+    backdrop-filter: blur(10px);
+  }
+  .nav-item,
+  .dropdown,
+  .dropdown-item {
+    transition: 230ms ease-in-out;
+  }
+  .nav-item.active,
+  .dropdown-toggle.active,
+  .dropdown-item.active {
+    background-color: lightblue;
+  }
+  .nav-item.active a,
+  .dropdown-toggle.active a,
+  .dropdown-item.active a {
+    color: black !important;
+  }
+  .dropdown {
+    vertical-align: middle;
+  }
+  .dropdown-toggle {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .vh-60 {
+    height: 60vh;
+  }
+  .row {
+    width: 100%;
+    margin: 0;
+  }
+  .imptSection {
+    border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+  }
+  .fitImg {
+    width: 80%;
+    height: auto;
+  }
+  .font-20 {
+    font-size: 20px;
+  }
+  .font-18 {
+    font-size: 18px;
+  }
+  
