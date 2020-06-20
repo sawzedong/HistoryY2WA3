@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HistoryY2WA3/static/css/main.957a3edc.chunk.css",
+    "main.js": "/HistoryY2WA3/static/js/main.b621584c.chunk.js",
+    "main.js.map": "/HistoryY2WA3/static/js/main.b621584c.chunk.js.map",
+    "runtime-main.js": "/HistoryY2WA3/static/js/runtime-main.0f7de852.js",
+    "runtime-main.js.map": "/HistoryY2WA3/static/js/runtime-main.0f7de852.js.map",
+    "static/js/2.8cd5e81e.chunk.js": "/HistoryY2WA3/static/js/2.8cd5e81e.chunk.js",
+    "static/js/2.8cd5e81e.chunk.js.map": "/HistoryY2WA3/static/js/2.8cd5e81e.chunk.js.map",
+    "index.html": "/HistoryY2WA3/index.html",
+    "precache-manifest.405567e85dea3584544bf794115c7054.js": "/HistoryY2WA3/precache-manifest.405567e85dea3584544bf794115c7054.js",
+    "service-worker.js": "/HistoryY2WA3/service-worker.js",
+    "static/css/main.957a3edc.chunk.css.map": "/HistoryY2WA3/static/css/main.957a3edc.chunk.css.map",
+    "static/js/2.8cd5e81e.chunk.js.LICENSE.txt": "/HistoryY2WA3/static/js/2.8cd5e81e.chunk.js.LICENSE.txt",
+    "static/media/test-img.png": "/HistoryY2WA3/static/media/test-img.0d85b0d5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f7de852.js",
+    "static/js/2.8cd5e81e.chunk.js",
+    "static/css/main.957a3edc.chunk.css",
+    "static/js/main.b621584c.chunk.js"
+  ]
+}
