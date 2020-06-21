@@ -31,6 +31,9 @@
   .vh-60 {
     height: 60vh;
   }
+  .min-vh-60 {
+    min-height: 60vh;
+  }
   .row {
     width: 100%;
     margin: 0;
@@ -45,10 +48,17 @@
     width: 80%;
     height: auto;
   }
+  .fitSmallImg {
+    width: 70% !important;
+    height: auto;
+  }
   .font-20 {
     font-size: 20px;
   }
   .font-18 {
     font-size: 18px;
   }
-  
+  .py-7 {
+    padding-top: 7vmax;
+    padding-bottom: 7vmax;
+  }

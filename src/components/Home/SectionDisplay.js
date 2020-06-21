@@ -11,11 +11,10 @@ btnText
 import React from "react"
 function SectionDisplay(props) {
     var iconClass = `fas fa-${props.icon} fa-3x`;
-    var sectionClass = `${props.sectionEx} px-3 vw-100`;
     var btnClass = "btn btn-primary px-3 py-2 font-20";
     if(!props.btnDisplay){btnClass = "d-none";}
     return (
-        <section className={sectionClass}>
+        <div>
         <div className="row h-100 justify-content-center">
           <div className="col-md-3 text-md-right p-4" >
 
@@ -39,7 +38,7 @@ function SectionDisplay(props) {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     )
 }
 export default SectionDisplay;
