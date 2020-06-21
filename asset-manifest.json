@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/HistoryY2WA3/static/css/main.957a3edc.chunk.css",
-    "main.js": "/HistoryY2WA3/static/js/main.2a42d1ca.chunk.js",
-    "main.js.map": "/HistoryY2WA3/static/js/main.2a42d1ca.chunk.js.map",
+    "main.css": "/HistoryY2WA3/static/css/main.57b1231e.chunk.css",
+    "main.js": "/HistoryY2WA3/static/js/main.a3e34004.chunk.js",
+    "main.js.map": "/HistoryY2WA3/static/js/main.a3e34004.chunk.js.map",
     "runtime-main.js": "/HistoryY2WA3/static/js/runtime-main.0f7de852.js",
     "runtime-main.js.map": "/HistoryY2WA3/static/js/runtime-main.0f7de852.js.map",
     "static/css/2.4707e12a.chunk.css": "/HistoryY2WA3/static/css/2.4707e12a.chunk.css",
-    "static/js/2.b1cc5d47.chunk.js": "/HistoryY2WA3/static/js/2.b1cc5d47.chunk.js",
-    "static/js/2.b1cc5d47.chunk.js.map": "/HistoryY2WA3/static/js/2.b1cc5d47.chunk.js.map",
+    "static/js/2.1c5c2f46.chunk.js": "/HistoryY2WA3/static/js/2.1c5c2f46.chunk.js",
+    "static/js/2.1c5c2f46.chunk.js.map": "/HistoryY2WA3/static/js/2.1c5c2f46.chunk.js.map",
     "index.html": "/HistoryY2WA3/index.html",
-    "precache-manifest.bbb60e84e467f4d3938d4f7025ea1be5.js": "/HistoryY2WA3/precache-manifest.bbb60e84e467f4d3938d4f7025ea1be5.js",
+    "precache-manifest.e17653018216531b6775c9812434dad0.js": "/HistoryY2WA3/precache-manifest.e17653018216531b6775c9812434dad0.js",
     "service-worker.js": "/HistoryY2WA3/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/HistoryY2WA3/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.957a3edc.chunk.css.map": "/HistoryY2WA3/static/css/main.957a3edc.chunk.css.map",
-    "static/js/2.b1cc5d47.chunk.js.LICENSE.txt": "/HistoryY2WA3/static/js/2.b1cc5d47.chunk.js.LICENSE.txt",
+    "static/css/main.57b1231e.chunk.css.map": "/HistoryY2WA3/static/css/main.57b1231e.chunk.css.map",
+    "static/js/2.1c5c2f46.chunk.js.LICENSE.txt": "/HistoryY2WA3/static/js/2.1c5c2f46.chunk.js.LICENSE.txt",
+    "static/media/policies-thumbnail.jpg": "/HistoryY2WA3/static/media/policies-thumbnail.f9c8c9d3.jpg",
     "static/media/test-img.svg": "/HistoryY2WA3/static/media/test-img.b8060efd.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0f7de852.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.b1cc5d47.chunk.js",
-    "static/css/main.957a3edc.chunk.css",
-    "static/js/main.2a42d1ca.chunk.js"
+    "static/js/2.1c5c2f46.chunk.js",
+    "static/css/main.57b1231e.chunk.css",
+    "static/js/main.a3e34004.chunk.js"
   ]
 }
