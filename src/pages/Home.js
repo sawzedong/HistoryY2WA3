@@ -8,6 +8,9 @@ import TestImg from "../img/test-img.svg";
 import PoliciesThumbnail from "../img/policies-thumbnail.jpg"
 
 import SectionDisplay from "../components/Home/SectionDisplay"
+import ScrollerDown from "../components/ScrollerDown"
+
+import "../styles/Home.css"
 
 // style={{ border: "1px solid black" }}
 
@@ -26,9 +29,9 @@ AOS.init();
 export default function Home() {
   return (
     <PageTemplate padding>
-      <section className="py-7 vw-100 row" style={backgroundImgStyle}>
+      <section className="min-vh-100 py-7 vw-100 row" style={backgroundImgStyle} id="homeIntroSection">
         <div 
-          className="container col-sm-11 col-md-7 my-auto imptSection p-3" 
+          className="col-sm-11 col-md-7 my-auto imptSection p-3 mx-auto " 
           data-aos="fade-in"
           data-aos-delay="50" 
           data-aos-duration="500"
@@ -37,29 +40,22 @@ export default function Home() {
           <div className="dropdown-divider" />
           <h4>Government Policies</h4>
           <h6>Made by 20Y2H Group 3</h6>
+          
         </div>
+          <ScrollerDown ID="homepageScroller"/>
       </section>
-      <section className="bg-light min-vh-60 px-3 py-4 vw-100 row">
-       <div className="col-md-12 my-auto row">
-        <div className="col-md-6 text-md-right row">
-          <div className="col-md-12 my-auto">
-          <h1>
-            <strong>Overview</strong>
-          </h1>
-          <p className="font-20">
+      
+      <section className="px-3 py-4 vw-100">
+        <h1 className="text-center sectionHeader mb-2">Features</h1>
+      <SectionDisplay 
+          icon="align-left"
+          headerText="Overview"
+          btnText=""
+        >
           Focus: <strong>Government Policies</strong><br/>
           Time Period: <strong>1965 to 2000</strong><br/>
           Where: <strong>Singapore</strong><br/>
-          </p>
-          </div>
-        </div>
-        <div className="col-md-6">
-          <img src={PoliciesThumbnail} alt="Example of Policies" className="img-thumbnail fitSmallImg" />
-        </div>
-       </div>
-      </section>
-      <section className="px-3 py-4 vw-100">
-       
+        </SectionDisplay>
         <SectionDisplay 
           icon="history"
           headerText="Timeline"

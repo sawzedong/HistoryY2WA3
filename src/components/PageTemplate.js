@@ -18,10 +18,10 @@ export default function PageTemplate(props) {
     offsetPadding = 0;
     offsetMargin = "32px";
   }
-
+  var finalClasses = `${props.classes} dark`;
   return (
     <div
-      className={props.classes}
+      className={finalClasses}
       id={props.ID}
       style={{
         paddingTop: offsetPadding,

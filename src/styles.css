@@ -58,7 +58,35 @@
   .font-18 {
     font-size: 18px;
   }
+  .font-16 {
+    font-size: 16px;
+  }
   .py-7 {
     padding-top: 7vmax;
     padding-bottom: 7vmax;
   }
+  .scroll-down {
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7)
+}
+html {
+  scroll-behavior: smooth;
+}
+.sectionHeader {
+  border-bottom: 1px solid black;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dark {
+  background-color: black !important;
+
+}
+.dark > * {
+  color: white !important;
+}
