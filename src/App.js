@@ -5,6 +5,7 @@ import "./styles.css";
 import NavLink from "./components/NavLink.js";
 import NavDropdownItem from "./components/NavDropdownItem.js";
 import NavDropdown from "./components/NavDropdown.js";
+import NavDarkLightModeToggler from "./components/NavDarkLightModeToggler.js"
 
 import Home from "./pages/Home";
 import Page1 from "./pages/Page1";
@@ -35,7 +36,7 @@ function App() {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <div className="collapse navbar-collapse mr-auto position-relative" id="navbarNavDropdown">
             <div className="dropdown-divider" />
             <ul className="navbar-nav">
               <NavLink to='/' label="Home" />
@@ -53,6 +54,7 @@ function App() {
                 </div>
               </NavDropdown>
             </ul>
+            <NavDarkLightModeToggler />
           </div>
         </nav>
         *
