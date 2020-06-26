@@ -18,7 +18,7 @@ class ScrollerDown extends React.Component {
       }
       render() {
         return (
-        <div id={this.props.ID} onClick = {this.handleClick} className="scroll-down" >
+        <div id={this.props.ID} onClick = {this.handleClick} className="scroll-down bg-on-dark-positive-trans" >
             <span className="fas fa-chevron-down"/>
           </div>
         );

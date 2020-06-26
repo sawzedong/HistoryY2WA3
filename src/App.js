@@ -5,7 +5,6 @@ import "./styles.css";
 import NavLink from "./components/NavLink.js";
 import NavDropdownItem from "./components/NavDropdownItem.js";
 import NavDropdown from "./components/NavDropdown.js";
-import NavDarkLightModeToggler from "./components/NavDarkLightModeToggler.js"
 
 import Home from "./pages/Home";
 import Page1 from "./pages/Page1";
@@ -54,7 +53,7 @@ function App() {
                 </div>
               </NavDropdown>
             </ul>
-            <NavDarkLightModeToggler />
+
           </div>
         </nav>
         *
