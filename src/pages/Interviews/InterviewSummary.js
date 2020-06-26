@@ -1,11 +1,11 @@
 /*eslint no-unused-vars: 0*/
 import React from "react";
-import PageTemplate from "../components/PageTemplate";
+import PageTemplate from "../../components/PageTemplate";
 
-export default function Page2() {
+export default function InterviewSummary() {
   return (
     <PageTemplate padding={true} margin={false}>
-      <h1>Page2</h1>
+      <h1>InterviewSummary</h1>
     </PageTemplate>
   );
 }

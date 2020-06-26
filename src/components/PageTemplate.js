@@ -5,7 +5,7 @@ import {
   Switch,
   Route,
   Link,
-  useRouteMatch
+  useRouteMatch,
 } from "react-router-dom";
 
 export default function PageTemplate(props) {
@@ -25,7 +25,7 @@ export default function PageTemplate(props) {
       id={props.ID}
       style={{
         paddingTop: offsetPadding,
-        marginTop: offsetMargin
+        marginTop: offsetMargin,
       }}
     >
       {props.children}

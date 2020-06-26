@@ -1,9 +1,9 @@
 .App {
-    font-family: sans-serif;
-    text-align: center;
+  font-family: sans-serif;
+  text-align: center;
 }
 nav {
-  background-color: rgba(27, 44, 85, 0.95);
+  background-color: rgba(18, 0, 77, 0.9);
   backdrop-filter: blur(10px);
 }
 .nav-item,
@@ -75,7 +75,7 @@ nav {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.7)
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 html {
@@ -87,52 +87,6 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
-
-#DarkModeTogglerDiv {
-  right: 0;
-}
-
-.dark {
-  transition: 180ms ease-in-out;
-}
-@media (prefers-color-scheme: dark) {
-  .PageTemplateClass {
-      background-color: black ;
-  }
-    .PageTemplateClass p, 
-    .PageTemplateClass span, 
-    .PageTemplateClass h1, 
-    .PageTemplateClass h2,
-    .PageTemplateClass h3,
-    .PageTemplateClass h4,
-    .PageTemplateClass h5,
-    .PageTemplateClass h6, 
-    .PageTemplateClass .fas {
-      color: white;
-    }
-    .bg-on-dark-positive {
-      background-color: rgba(0, 0, 0);
-    }
-    .bg-on-dark-negative {
-      background-color: rgba(255, 255, 255);
-    }
-    .col-on-dark-positive {
-      color: rgba(0, 0, 0);
-    }
-    .col-on-dark-negative {
-      color: rgba(255, 255, 255);
-    }
-    .bg-on-dark-positive-trans {
-      background-color: rgba(0, 0, 0, 0.7)
-    }
-    .PageTemplateClass a {
-      color: #007bff;
-    }
-    .PageTemplateClass a:hover {
-      color: #4da3ff;
-    }
-    .dark .scroll-down {
-      background-color: rgba(0, 0, 0, 0.7);
-      color: white;
-    }
+.PageTemplateClass {
+  background-color: #f2f7ff;
 }

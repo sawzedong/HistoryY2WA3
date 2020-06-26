@@ -5,13 +5,13 @@ import {
   Switch,
   Route,
   Link,
-  useRouteMatch
+  useRouteMatch,
 } from "react-router-dom";
 
 export default function NavDropdownItem({ label, to }) {
   let match = useRouteMatch({
     path: to,
-    exact: true
+    exact: true,
   });
   return (
     <>

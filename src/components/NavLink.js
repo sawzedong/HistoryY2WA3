@@ -5,13 +5,13 @@ import {
   Switch,
   Route,
   Link,
-  useRouteMatch
+  useRouteMatch,
 } from "react-router-dom";
 
 export default function NavLink({ label, to }) {
   let match = useRouteMatch({
     path: to,
-    exact: true
+    exact: true,
   });
   return (
     <li className={match ? "active nav-item px-2" : "nav-item px-2"}>

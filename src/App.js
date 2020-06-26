@@ -7,11 +7,14 @@ import NavDropdownItem from "./components/NavDropdownItem.js";
 import NavDropdown from "./components/NavDropdown.js";
 
 import Home from "./pages/Home";
-import Page1 from "./pages/Page1";
-import Page2 from "./pages/Page2";
-import Page3A from "./pages/Page3/A";
-import Page3B from "./pages/Page3/B";
-import Page3C from "./pages/Page3/C";
+import Timeline from "./pages/Timeline";
+import Changes from "./pages/Changes";
+import InterviewSummary from "./pages/Interviews/InterviewSummary";
+import Interview1 from "./pages/Interviews/Interview1";
+import Interview2 from "./pages/Interviews/Interview2";
+import Interview3 from "./pages/Interviews/Interview3";
+
+import Error404 from "./pages/Error404";
 
 function App() {
   return (
@@ -21,7 +24,7 @@ function App() {
           className="navbar navbar-expand-md navbar-dark fixed-top"
           id="web-navbar"
         >
-          <Link className="navbar-brand" to='/'>
+          <Link className="navbar-brand" to="/">
             Navbar
           </Link>
           <button
@@ -35,52 +38,71 @@ function App() {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse mr-auto position-relative" id="navbarNavDropdown">
+          <div
+            className="collapse navbar-collapse mr-auto position-relative"
+            id="navbarNavDropdown"
+          >
             <div className="dropdown-divider" />
             <ul className="navbar-nav">
-              <NavLink to='/' label="Home" />
-              <NavLink to='/page1' label="Page1" />
-              <NavLink to='/page2' label="Page2" />
+              <NavLink to="/" label="Home" />
+              <NavLink to="/timeline" label="Timeline" />
+              <NavLink to="/changes" label="Changes" />
 
-              <NavDropdown to='/page3' label="Page3">
+              <NavDropdown to="/interviews/" label="Interviews">
                 <div
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <NavDropdownItem to='/page3/a' label="Page 3 A" />
-                  <NavDropdownItem to='/page3/b' label="Page 3 B" />
-                  <NavDropdownItem to='/page3/c' label="Page 3 C" />
+                  <NavDropdownItem
+                    to="/interviews/"
+                    label="Interviews Summary"
+                  />
+                  <div className="dropdown-divider"></div>
+                  <NavDropdownItem
+                    to="/interviews/interview1/"
+                    label="Interview 1"
+                  />
+                  <NavDropdownItem
+                    to="/interviews/interview2/"
+                    label="Interview 2"
+                  />
+                  <NavDropdownItem
+                    to="/interviews/interview3/"
+                    label="Interview 3"
+                  />
                 </div>
               </NavDropdown>
             </ul>
-
           </div>
         </nav>
         *
         <Switch>
-          <Route exact path='/'>
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path='/page1'>
-            <Page1 />
+          <Route exact path="/timeline">
+            <Timeline />
           </Route>
-          <Route exact path='/page2'>
-            <Page2 />
+          <Route exact path="/changes">
+            <Changes />
           </Route>
-          <Route exact path='/page3'>
+          <Route exact path="/page3">
             <h1>PAGE3</h1>
           </Route>
-          <Route exact path='/page3/a'>
-            <Page3A />
+          <Route exact path="/interviews/">
+            <InterviewSummary />
           </Route>
-          <Route exact path='/page3/b'>
-            <Page3B />
+          <Route exact path="/interviews/interview1">
+            <Interview1 />
           </Route>
-          <Route exact path='/page3/c'>
-            <Page3C />
+          <Route exact path="/interviews/interview2">
+            <Interview2 />
+          </Route>
+          <Route exact path="/interviews/interview3">
+            <Interview3 />
           </Route>
           <Route path="*">
-            <h1>UNKNOWN: 404 ERROR</h1>
+            <Error404 />
           </Route>
         </Switch>
       </Router>

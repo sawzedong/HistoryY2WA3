@@ -2,10 +2,10 @@
 import React from "react";
 import PageTemplate from "../../components/PageTemplate";
 
-export default function Page3B() {
+export default function Interview2() {
   return (
     <PageTemplate padding={true} margin={false}>
-      <h1>Page3B</h1>
+      <h1>Interview2</h1>
     </PageTemplate>
   );
 }
