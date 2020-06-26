@@ -1,5 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {Helmet} from "react-helmet";
 import "./styles.css";
 
 import NavLink from "./components/NavLink.js";
@@ -78,30 +79,51 @@ function App() {
         *
         <Switch>
           <Route exact path="/">
+          <Helmet>
+                <title>History Project</title>
+            </Helmet>
             <Home />
           </Route>
           <Route exact path="/timeline">
+          <Helmet>
+                <title>Timeline - History Project</title>
+            </Helmet>
             <Timeline />
           </Route>
           <Route exact path="/changes">
+          <Helmet>
+                <title>Changes - History Project</title>
+            </Helmet>
             <Changes />
           </Route>
-          <Route exact path="/page3">
-            <h1>PAGE3</h1>
-          </Route>
           <Route exact path="/interviews/">
+          <Helmet>
+                <title>Interviews - History Project</title>
+            </Helmet>
             <InterviewSummary />
           </Route>
           <Route exact path="/interviews/interview1">
+          <Helmet>
+                <title>Interview 1 - History Project</title>
+            </Helmet>
             <Interview1 />
           </Route>
           <Route exact path="/interviews/interview2">
+          <Helmet>
+                <title>Interview 2 - History Project</title>
+            </Helmet>
             <Interview2 />
           </Route>
           <Route exact path="/interviews/interview3">
+          <Helmet>
+                <title>Interview 3 - History Project</title>
+            </Helmet>
             <Interview3 />
           </Route>
           <Route path="*">
+          <Helmet>
+                <title>Error 404 Not Found - History Project</title>
+            </Helmet>
             <Error404 />
           </Route>
         </Switch>
