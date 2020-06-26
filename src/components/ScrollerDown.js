@@ -18,7 +18,7 @@ class ScrollerDown extends React.Component {
       }
       render() {
         return (
-        <div id={this.props.ID} onClick = {this.handleClick} className="scroll-down" data-aos="fade-down" data-aos-offset="0">
+        <div id={this.props.ID} onClick = {this.handleClick} className="scroll-down" >
             <span className="fas fa-chevron-down"/>
           </div>
         );

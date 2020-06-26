@@ -32,9 +32,6 @@ export default function Home() {
       <section className="min-vh-100 py-7 vw-100 row" style={backgroundImgStyle} id="homeIntroSection">
         <div 
           className="col-sm-11 col-md-7 my-auto imptSection p-3 mx-auto " 
-          data-aos="fade-in"
-          data-aos-delay="50" 
-          data-aos-duration="500"
         >
           <h1>Historical Investigation Task</h1>
           <div className="dropdown-divider" />
@@ -45,12 +42,12 @@ export default function Home() {
           <ScrollerDown ID="homepageScroller"/>
       </section>
       
-      <section className="px-3 py-4 vw-100">
-        <h1 className="text-center sectionHeader mb-2">Features</h1>
+      <section className="px-3 py-5 vw-100">
       <SectionDisplay 
           icon="align-left"
           headerText="Overview"
           btnText=""
+          linkto=""
         >
           Focus: <strong>Government Policies</strong><br/>
           Time Period: <strong>1965 to 2000</strong><br/>
@@ -61,6 +58,7 @@ export default function Home() {
           headerText="Timeline"
           btnDisplay
           btnText="See Timeline"
+          linkto="/page1"
         >
           Look through all the government policies, and when they were implemented. 
           Click on the policies in the timeline to see them in detail.
@@ -70,6 +68,7 @@ export default function Home() {
           headerText="Changes"
           btnDisplay
           btnText="See Changes"
+          linkto="/page2"
         >
           Look at the changes in Singapore based on the policies, 
           or simply see an overview of all changes due to all the government policies implmented.
@@ -79,6 +78,7 @@ export default function Home() {
           headerText="Interviews"
           btnDisplay
           btnText="See Interviews"
+          linkto="/page3/a"
         >
           Read all the first-hand accounts from people interviewed 
           and understand life back then.

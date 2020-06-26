@@ -1,39 +1,31 @@
 /*eslint no-unused-vars: 0*/
-/*
-Required Props:
-icon
-sectionEx
-headerText
-paraText
-btnDisplay
-btnText
-*/
 import React from "react"
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 function SectionDisplay(props) {
-    var iconClass = `fas fa-${props.icon} fa-3x`;
-    var btnClass = "btn btn-primary px-3 py-2 font-16";
+    var iconClass = `fas fa-${props.icon} h1`;
+    var btnClass = "font-16";
     if(!props.btnDisplay){btnClass = "d-none";}
     return (
         <div>
-        <div className="row h-100 justify-content-center">
-          <div className="col-md-3 text-md-right p-4" >
+        <div className="row h-100">
+          <div className="col-md-3 text-md-right p-4 px-5">
 
               <i className={iconClass} id="historyIcon" />
 
           </div>
-          <div className="col-md-8 row p-3" >
+          <div className="col-md-8 row p-3">
             <div className="col-md-12 my-auto">
-              <h2 className="h3">
+              <h2>
                 <strong>{props.headerText}</strong>
               </h2>
 
-              <p className="my-4 font-18">
+              <p className="my-4 font-17">
               {props.children}
               </p>
               <p>
-                <button className={btnClass}>
+                <Link className={btnClass} to={props.linkto}>
                   {props.btnText}
-                </button>
+                </Link>
               </p>
             </div>
           </div>
