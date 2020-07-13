@@ -1,15 +1,7 @@
+
 # History Y2 WA3 Website Draft  
 
 This website is in the development. Please check back again later.
-
-## View Website
-View Website Here:  
-[https://sawzedong.github.io/HistoryY2WA3/#/](https://sawzedong.github.io/HistoryY2WA3/#/)
-
-## Website Overview  
-**Built For**: History Y2 WA3 (Final Product Draft)  
-**Built In**: June to September 2020  
-**Built By**: 20Y2H Group 3  
 
 ## Dependencies
 #### Page Content
@@ -29,8 +21,3 @@ This websites functions on the following dependencies:
 + [FontAwesome](https://fontawesome.com/)
 
 If your browser cannot display the website, please ensure that these dependencies were not blocked.
-
-## End statement
-Hope that this website is able to allow you to better understand how Government Policies shaped the development of Singapore after independence.
-
-<font size="10">Copyright &copy; 2020 SZD. All rights reserved.</font>
