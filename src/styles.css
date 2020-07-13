@@ -90,3 +90,12 @@ html {
 .PageTemplateClass {
   background-color: #f2f7ff;
 }
+@media screen and (max-width: 768px) {
+
+  .forceTopMd {
+    margin-top: 0px !important;
+  }
+  .forceBottomMd {
+    margin-bottom: 0px !important;
+  }
+}

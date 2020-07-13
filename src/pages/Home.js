@@ -20,7 +20,7 @@ const backgroundImgStyle = {
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
 };
-const borderStyle = {};
+
 
 AOS.init();
 

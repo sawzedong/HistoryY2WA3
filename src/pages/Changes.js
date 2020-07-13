@@ -4,7 +4,7 @@ import PageTemplate from "../components/PageTemplate";
 
 export default function Changes() {
   return (
-    <PageTemplate padding={true} margin={false}>
+    <PageTemplate padding>
       <h1>Changes</h1>
     </PageTemplate>
   );

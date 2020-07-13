@@ -4,7 +4,7 @@ import PageTemplate from "../components/PageTemplate";
 
 export default function Timeline() {
   return (
-    <PageTemplate padding={true} margin={false}>
+    <PageTemplate padding>
       <h1>Page1</h1>
     </PageTemplate>
   );

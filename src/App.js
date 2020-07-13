@@ -26,7 +26,7 @@ function App() {
           id="web-navbar"
         >
           <Link className="navbar-brand" to="/">
-            Navbar
+            HistoryY2WA3
           </Link>
           <button
             className="navbar-toggler"

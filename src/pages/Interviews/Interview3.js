@@ -4,7 +4,7 @@ import PageTemplate from "../../components/PageTemplate";
 
 export default function Interview3() {
   return (
-    <PageTemplate padding={true} margin={false}>
+    <PageTemplate padding>
       <h1>Interview3</h1>
     </PageTemplate>
   );

@@ -3,28 +3,30 @@ import React from "react";
 import PageTemplate from "../components/PageTemplate";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-export default function Error404() {
+export default function Error404(props) {
   return (
-    <PageTemplate padding={true} margin={false}>
-      <section className="min-vh-100 row">
-        <div className="col-md-6 row">
-          <div className="col-md-12 my-auto text-md-right">
-            <h1 className="mb-1">
-              <i className="fas fa-exclamation-triangle text-warning" />
-              &ensp;Error 404: Page not found
+    <PageTemplate padding>
+      <section className="min-vh-100 row justify-content-center">
+      <div className="col-md-3 my-auto row forceBottomMd">
+          <div className="col-md-12 text-center">
+            <h1><i class="far fa-times-circle fa-3x text-danger" /></h1>
+          </div>
+        </div>
+        <div className="col-md-6 my-auto row forceTopMd">
+          <div className="col-md-12 text-center">
+            <h1>
+              Error 404 
+              <br/>
+              Page Not Found
             </h1>
-            <p className="mt-1">
-              This page doesn't exist.
+            <p className="">
+              The page which you have requested could not be found.
               <br />
-              Go back to the <Link to="/">homepage?</Link>
+              Go back to the <Link to="/">homepage</Link>?
             </p>
           </div>
         </div>
-        <div className="col-md-6 row">
-          <div className="col-md-12 my-auto">
-            <h1>ASD</h1>
-          </div>
-        </div>
+        
       </section>
     </PageTemplate>
   );
