@@ -9,7 +9,15 @@ import NavDropdown from "./components/NavDropdown.js";
 
 import Home from "./pages/Home";
 import Timeline from "./pages/Timeline";
-import Changes from "./pages/Changes";
+
+import HousingChanges from "./pages/Changes/HousingChanges"
+import EnvironmentalChanges from "./pages/Changes/EnvironmentChanges"
+import PopulationChanges from "./pages/Changes/PopulationChanges"
+import MonetaryChanges from "./pages/Changes/MonetaryChanges"
+import SocialChanges from "./pages/Changes/SocialChanges"
+
+import PolicyMaking from "./pages/PolicyMaking.js"
+
 import TimePeriod1 from "./pages/Time-Periods/time-period-1";
 import TimePeriod2 from "./pages/Time-Periods/time-period-2";
 import TimePeriod3 from "./pages/Time-Periods/time-period-3";
@@ -46,7 +54,33 @@ function App() {
             <ul className="navbar-nav">
               <NavLink to="/" label="Home" />
               <NavLink to="/timeline" label="Timeline" />
-              <NavLink to="/changes" label="Changes" />
+              <NavDropdown to="/changes/" label="Changes">
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <NavDropdownItem
+                    to="/changes/housing-changes"
+                    label="Housing Changes"
+                  />
+                  <NavDropdownItem
+                    to="/changes/environmental-changes"
+                    label="Environmental Changes"
+                  />
+                  <NavDropdownItem
+                    to="/changes/population-changes"
+                    label="Population Changes"
+                  />
+                  <NavDropdownItem
+                    to="/changes/monetary-changes"
+                    label="Monetary Changes"
+                  />
+                  <NavDropdownItem
+                    to="/changes/social-changes"
+                    label="Social Changes"
+                  />
+                </div>
+              </NavDropdown>
 
               <NavDropdown to="/time-periods/" label="Time Periods">
                 <div
@@ -67,6 +101,7 @@ function App() {
                   />
                 </div>
               </NavDropdown>
+              <NavLink to="/policy-making" label="Policy Making" />
             </ul>
           </div>
         </nav>
@@ -84,11 +119,41 @@ function App() {
             </Helmet>
             <Timeline />
           </Route>
-          <Route exact path="/changes">
+          <Route exact path="/changes/housing-changes">
             <Helmet>
-              <title>Changes - History Project</title>
+              <title>Housing Changes - History Project</title>
             </Helmet>
-            <Changes />
+            <HousingChanges />
+          </Route>
+          <Route exact path="/changes/environmental-changes">
+            <Helmet>
+              <title>Environmental Changes - History Project</title>
+            </Helmet>
+            <EnvironmentalChanges />
+          </Route>
+          <Route exact path="/changes/population-changes">
+            <Helmet>
+              <title>Population Changes - History Project</title>
+            </Helmet>
+            <PopulationChanges />
+          </Route>
+          <Route exact path="/changes/monetary-changes">
+            <Helmet>
+              <title>Monetary Changes - History Project</title>
+            </Helmet>
+            <MonetaryChanges />
+          </Route>
+          <Route exact path="/changes/social-changes">
+            <Helmet>
+              <title>Social Changes - History Project</title>
+            </Helmet>
+            <SocialChanges />
+          </Route>
+          <Route exact path="/policy-making">
+            <Helmet>
+              <title>Policy Making - History Project</title>
+            </Helmet>
+            <PolicyMaking />
           </Route>
           <Route exact path="/time-periods/time-period-1">
             <Helmet>

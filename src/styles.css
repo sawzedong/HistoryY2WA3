@@ -113,3 +113,6 @@ table {
 .w-30 {
   width: 30%;
 }
+body {
+  transition: 180ms ease-in-out;
+}
