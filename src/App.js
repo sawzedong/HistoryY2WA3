@@ -10,10 +10,9 @@ import NavDropdown from "./components/NavDropdown.js";
 import Home from "./pages/Home";
 import Timeline from "./pages/Timeline";
 import Changes from "./pages/Changes";
-import InterviewSummary from "./pages/Interviews/InterviewSummary";
-import Interview1 from "./pages/Interviews/Interview1";
-import Interview2 from "./pages/Interviews/Interview2";
-import Interview3 from "./pages/Interviews/Interview3";
+import TimePeriod1 from "./pages/Time-Periods/time-period-1";
+import TimePeriod2 from "./pages/Time-Periods/time-period-2";
+import TimePeriod3 from "./pages/Time-Periods/time-period-3";
 
 import Error404 from "./pages/Error404";
 
@@ -49,27 +48,22 @@ function App() {
               <NavLink to="/timeline" label="Timeline" />
               <NavLink to="/changes" label="Changes" />
 
-              <NavDropdown to="/interviews/" label="Interviews">
+              <NavDropdown to="/time-periods/" label="Time Periods">
                 <div
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <NavDropdownItem
-                    to="/interviews/"
-                    label="Interviews Summary"
-                  />
-                  <div className="dropdown-divider"></div>
-                  <NavDropdownItem
-                    to="/interviews/interview1/"
-                    label="Interview 1"
+                    to="/time-periods/time-period-1/"
+                    label="Time Period 1"
                   />
                   <NavDropdownItem
-                    to="/interviews/interview2/"
-                    label="Interview 2"
+                    to="/time-periods/time-period-2/"
+                    label="Time Period 2"
                   />
                   <NavDropdownItem
-                    to="/interviews/interview3/"
-                    label="Interview 3"
+                    to="/time-periods/time-period-3/"
+                    label="Time Period 3"
                   />
                 </div>
               </NavDropdown>
@@ -96,29 +90,23 @@ function App() {
             </Helmet>
             <Changes />
           </Route>
-          <Route exact path="/interviews/">
+          <Route exact path="/time-periods/time-period-1">
             <Helmet>
-              <title>Interviews - History Project</title>
+              <title>Time Period 1 - History Project</title>
             </Helmet>
-            <InterviewSummary />
+            <TimePeriod1 />
           </Route>
-          <Route exact path="/interviews/interview1">
+          <Route exact path="/time-periods/time-period-2">
             <Helmet>
-              <title>Interview 1 - History Project</title>
+              <title>Time Period 2 - History Project</title>
             </Helmet>
-            <Interview1 />
+            <TimePeriod2 />
           </Route>
-          <Route exact path="/interviews/interview2">
+          <Route exact path="/time-periods/time-period-3">
             <Helmet>
-              <title>Interview 2 - History Project</title>
+              <title>Time Period 3 - History Project</title>
             </Helmet>
-            <Interview2 />
-          </Route>
-          <Route exact path="/interviews/interview3">
-            <Helmet>
-              <title>Interview 3 - History Project</title>
-            </Helmet>
-            <Interview3 />
+            <TimePeriod3 />
           </Route>
           <Route path="*">
             <Helmet>

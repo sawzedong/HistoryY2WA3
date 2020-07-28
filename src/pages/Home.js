@@ -71,7 +71,7 @@ export default function Home() {
           headerText="Changes"
           btnDisplay
           btnText="See Changes"
-          linkto="/page2"
+          linkto="/changes"
         >
           Look at the changes in Singapore based on the policies, or simply see
           an overview of all changes due to all the government policies
