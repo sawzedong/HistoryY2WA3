@@ -34,6 +34,12 @@ nav {
 .min-vh-60 {
   min-height: 60vh;
 }
+.min-vh-40 {
+  min-height: 40vh;
+}
+.vh-40 {
+  height: 40vh;
+}
 .row {
   width: 100%;
   margin: 0;
@@ -115,4 +121,33 @@ table {
 }
 body {
   transition: 180ms ease-in-out;
+}
+.imptText {
+  color: #050505;
+}
+.glassCard {
+  background-color: rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  backdrop-filter: blur(2px)
+}
+.gradient-background-1 {
+  background-image: linear-gradient(to bottom right, #bdf3ff, #e0bdff) !important;
+}
+.glassCard {
+  box-shadow: 0 10px 15px 2px rgba(0, 0, 0, 0.2);
+}
+.gradient-background-2 {
+  background-image: linear-gradient(to top left, rgba(219, 248, 255, 0.5), rgba(238, 219, 255, 0.5))
+}
+.gradient-background-2.glassCard {
+  box-shadow: 0 10px 15px 2px rgba(0, 0, 0, 0.5);
+}
+.bottomGrayBorder {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4)
+}
+.h-40 {
+  height: 40%;
+}
+.h-60 {
+  height: 60%;
 }

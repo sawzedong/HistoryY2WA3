@@ -7,6 +7,8 @@ import PageTemplate from "../components/PageTemplate";
 import TestImg from "../img/test-img.svg";
 import PoliciesThumbnail from "../img/policies-thumbnail.jpg";
 
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import SectionDisplay from "../components/Home/SectionDisplay";
 import ScrollerDown from "../components/ScrollerDown";
 
@@ -20,7 +22,6 @@ const backgroundImgStyle = {
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
 };
-
 
 AOS.init();
 
@@ -41,51 +42,50 @@ export default function Home() {
         <ScrollerDown ID="homepageScroller" />
       </section>
 
-      <section className="px-3 py-5 vw-100">
+      <section className="px-3 py-5 vw-100 gradient-background-1 row justify-content-around  min-vh-60">
+
         <SectionDisplay
-          icon="align-left"
-          headerText="Overview"
-          btnText=""
-          linkto=""
+          size="col-lg-2"
+          linkTo="/time-periods"
+          header="Times"
+          iconName="calendar-alt"
+          showLink
         >
+          State of aspects at individual time periods
+        </SectionDisplay>
+        <SectionDisplay
+          size="col-lg-2"
+          linkTo="/timeline"
+          header="Timeline"
+          iconName="history"
+          showLink
+        >
+          All policies, sorted by implementation date
+        </SectionDisplay>
+        <SectionDisplay size="col-lg-3 gradient-background-2" header="Overview" iconName="align-left">
           Focus: <strong>Government Policies</strong>
           <br />
           Time Period: <strong>1965 to 2000</strong>
           <br />
-          Where: <strong>Singapore</strong>
-          <br />
+        </SectionDisplay>
+
+        <SectionDisplay
+          size="col-lg-2"
+          linkTo="/changes"
+          header="Changes"
+          iconName="exchange-alt"
+          showLink
+        >
+          Changes in Singapore, sorted by aspects
         </SectionDisplay>
         <SectionDisplay
-          icon="history"
-          headerText="Timeline"
-          btnDisplay
-          btnText="See Timeline"
-          linkto="/timeline"
+          size="col-lg-2"
+          linkTo="/policy-making"
+          header="Policies"
+          iconName="scroll"
+          showLink
         >
-          Look through all the government policies, and when they were
-          implemented. Click on the policies in the timeline to see them in
-          detail.
-        </SectionDisplay>
-        <SectionDisplay
-          icon="exchange-alt"
-          headerText="Changes"
-          btnDisplay
-          btnText="See Changes"
-          linkto="/changes"
-        >
-          Look at the changes in Singapore based on the policies, or simply see
-          an overview of all changes due to all the government policies
-          implmented.
-        </SectionDisplay>
-        <SectionDisplay
-          icon="comments"
-          headerText="Interviews"
-          btnDisplay
-          btnText="See Interviews"
-          linkto="/interviews/"
-        >
-          Read all the first-hand accounts from people interviewed and
-          understand life back then.
+          Government Insights on Policies
         </SectionDisplay>
       </section>
     </PageTemplate>

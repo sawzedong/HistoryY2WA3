@@ -10,6 +10,7 @@ import NavDropdown from "./components/NavDropdown.js";
 import Home from "./pages/Home";
 import Timeline from "./pages/Timeline";
 
+import ContentChange from "./pages/Changes/ContentChange"
 import HousingChanges from "./pages/Changes/HousingChanges"
 import EnvironmentalChanges from "./pages/Changes/EnvironmentChanges"
 import PopulationChanges from "./pages/Changes/PopulationChanges"
@@ -54,11 +55,16 @@ function App() {
             <ul className="navbar-nav">
               <NavLink to="/" label="Home" />
               <NavLink to="/timeline" label="Timeline" />
-              <NavDropdown to="/changes/" label="Changes">
+              <NavDropdown to="/changes/" label="Changes" >
                 <div
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
+                  <NavDropdownItem
+                    to="/changes/"
+                    label="Changes"
+                  />
+                  <div className="dropdown-divider"/>
                   <NavDropdownItem
                     to="/changes/housing-changes"
                     label="Housing Changes"
@@ -118,6 +124,12 @@ function App() {
               <title>Timeline - History Project</title>
             </Helmet>
             <Timeline />
+          </Route>
+          <Route exact path="/changes/">
+            <Helmet>
+              <title>Changes - History Project</title>
+            </Helmet>
+            <ContentChange />
           </Route>
           <Route exact path="/changes/housing-changes">
             <Helmet>
