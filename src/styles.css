@@ -2,6 +2,9 @@
   font-family: sans-serif;
   text-align: center;
 }
+*:not(.fas):not(.far) {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
 nav {
   background-color: rgba(18, 0, 77, 0.9);
   backdrop-filter: blur(10px);
