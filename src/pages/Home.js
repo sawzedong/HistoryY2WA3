@@ -4,8 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import PageTemplate from "../components/PageTemplate";
 
-import TestImg from "../img/test-img.svg";
-import PoliciesThumbnail from "../img/policies-thumbnail.jpg";
+// import TestImg from "../img/test-img.svg";
+import PoliciesThumbnail from "../img/homepage-img.svg";
 
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -17,10 +17,11 @@ import "../styles/Home.css";
 // style={{ border: "1px solid black" }}
 
 const backgroundImgStyle = {
-  backgroundImage: `url(${TestImg})`,
+  backgroundImage: `url(${PoliciesThumbnail})`,
   width: "100vw",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
+  backgroundPosition: "center center"
 };
 
 AOS.init();
