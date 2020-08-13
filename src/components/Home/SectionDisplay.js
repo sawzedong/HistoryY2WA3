@@ -16,9 +16,9 @@ function SectionDisplay(props) {
             <i className={fullIconName} />
 
             <Link to={props.linkTo} className={showTheLink}>
-              <h2 class="h4">{props.header}</h2>
+              <h2 className="h4">{props.header}</h2>
             </Link>
-            <h2 class={showTheNonLink}>{props.header}</h2>
+            <h2 className={showTheNonLink}>{props.header}</h2>
           </div>
         </div>
         <div className="row">
@@ -36,9 +36,9 @@ function SectionDisplay(props) {
             <i className={fullIconName} />
 
             <Link to={props.linkTo} className={showTheLink}>
-              <h2 class="h4">{props.header}</h2>
+              <h2 className="h4">{props.header}</h2>
             </Link>
-            <h2 class={showTheNonLink}>{props.header}</h2>
+            <h2 className={showTheNonLink}>{props.header}</h2>
           </div>
         </div>
         <div className="h-40 row">
@@ -52,24 +52,3 @@ function SectionDisplay(props) {
   );
 }
 export default SectionDisplay;
-/*
-<div className= {sizing}>
-      <div className="col-12 h-100 mx-auto my-auto d-flex flex-column">
-        <div className="h-60 row w-100 bottomGrayBorder">
-          <div className="col-12 my-auto mx-auto">
-            <i className={fullIconName} />
-
-            <Link to={props.linkTo} className={showTheLink}>
-              <h2 class="h4">{props.header}</h2>
-            </Link>
-            <h2 class={showTheNonLink}>{props.header}</h2>
-          </div>
-        </div>
-        <div className="h-40 row">
-          <div className="col-12 my-auto mx-auto">
-            {props.children}
-          </div>
-        </div>
-      </div>
-    </div>
-*/

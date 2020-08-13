@@ -21,7 +21,7 @@ const backgroundImgStyle = {
   width: "100vw",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  backgroundPosition: "center center"
+  backgroundPosition: "center center",
 };
 
 AOS.init();
@@ -44,32 +44,35 @@ export default function Home() {
       </section>
 
       <section className="px-3 py-5 vw-100 gradient-background-1 row justify-content-around  min-vh-60">
-
-        <SectionDisplay
-          size="col-lg-2"
-          linkTo="/time-periods"
-          header="Times"
-          iconName="calendar-alt"
-          showLink
-        >
-          State of aspects at individual time periods
-        </SectionDisplay>
-        <SectionDisplay
-          size="col-lg-2"
-          linkTo="/timeline"
-          header="Timeline"
-          iconName="history"
-          showLink
-        >
-          All policies, sorted by implementation date
-        </SectionDisplay>
-        <SectionDisplay size="col-lg-3 gradient-background-2" header="Overview" iconName="align-left">
-          Focus: <strong>Government Policies</strong>
-          <br />
-          Time Period: <strong>1965 to 2000</strong>
-          <br />
-        </SectionDisplay>
-
+          <SectionDisplay
+            size="col-lg-2"
+            linkTo="/time-periods"
+            header="Times"
+            iconName="calendar-alt"
+            showLink
+          >
+            State of aspects at individual time periods
+          </SectionDisplay>
+          <SectionDisplay
+            size="col-lg-2"
+            linkTo="/timeline"
+            header="Timeline"
+            iconName="history"
+            showLink
+          >
+            All policies, sorted by implementation date
+          </SectionDisplay>
+          <SectionDisplay
+            size="col-lg-3 gradient-background-2"
+            header="Overview"
+            iconName="align-left"
+            linkTo="/"
+          >
+            Focus: <strong>Government Policies</strong>
+            <br />
+            Time Period: <strong>1965 to 2000</strong>
+            <br />
+          </SectionDisplay>
         <SectionDisplay
           size="col-lg-2"
           linkTo="/changes"
@@ -79,16 +82,18 @@ export default function Home() {
         >
           Changes in Singapore, sorted by aspects
         </SectionDisplay>
+        
         <SectionDisplay
           size="col-lg-2"
           linkTo="/policy-making"
-          header="Policies"
+          header="Bibliography"
           iconName="scroll"
           showLink
         >
-          Government Insights on Policies
+          Citations and references
         </SectionDisplay>
       </section>
     </PageTemplate>
   );
 }
+// !TODO: Change the link name for the bibliography and change link redirects
