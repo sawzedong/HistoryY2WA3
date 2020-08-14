@@ -2,23 +2,9 @@
 import React from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import PageTemplate from "../../components/PageTemplate";
+import PageFooter from "../../components/Footer";
 
-/*
-<section
-        className="min-vh-100 py-7 vw-100 row"
-        style={backgroundImgStyle}
-        id="homeIntroSection"
-      >
-        <div className="col-sm-11 col-md-7 my-auto imptSection p-3 mx-auto ">
-          <h1>Historical Investigation Task</h1>
-          <div className="dropdown-divider" />
-          <h4>Government Policies</h4>
-          <h6>Made by 20Y2H Group 3</h6>
-        </div>
-        <ScrollerDown ID="homepageScroller" />
-      </section>
-*/
-export default function ContentChange() {
+export default function Changes_Overview() {
   return (
     <PageTemplate padding>
       <div className="min-vh-100 gradient-background-1">

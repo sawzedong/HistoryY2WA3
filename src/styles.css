@@ -7,7 +7,7 @@
 }
 nav {
   /* background-color: rgba(18, 0, 77, 0.9); */
-  /* backdrop-filter: blur(10px); */
+  backdrop-filter: blur(3.5px);
   /* background-color: rgba(0, 0, 0, 0) */
   background-image: radial-gradient(ellipse at bottom, rgba(0, 0, 120, 0.9), rgba(0, 0, 0, 0.9))
 }
@@ -41,6 +41,9 @@ nav {
 }
 .min-vh-40 {
   min-height: 40vh;
+}
+.min-vh-20 {
+  min-height: 20vh;
 }
 .vh-40 {
   height: 40vh;

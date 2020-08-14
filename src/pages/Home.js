@@ -11,6 +11,7 @@ import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import SectionDisplay from "../components/Home/SectionDisplay";
 import ScrollerDown from "../components/ScrollerDown";
+import PageFooter from "../components/Footer";
 
 import "../styles/Home.css";
 
@@ -44,56 +45,36 @@ export default function Home() {
       </section>
 
       <section className="px-3 py-5 vw-100 gradient-background-1 row justify-content-around  min-vh-60">
-          <SectionDisplay
-            size="col-lg-2"
-            linkTo="/time-periods"
-            header="Times"
-            iconName="calendar-alt"
+        <SectionDisplay
+            size="col-lg-3"
+            linkTo="/introduction/overview"
+            header="Introduction"
+            iconName="play-circle"
             showLink
           >
-            State of aspects at individual time periods
+            Introduction to area of focus and overview of policies
           </SectionDisplay>
           <SectionDisplay
-            size="col-lg-2"
-            linkTo="/timeline"
-            header="Timeline"
-            iconName="history"
+            size="col-lg-4 gradient-background-2"
+            linkTo="/changes/overview"
+            header="Changes"
+            iconName="exchange-alt"
             showLink
           >
-            All policies, sorted by implementation date
+            Changes
           </SectionDisplay>
           <SectionDisplay
-            size="col-lg-3 gradient-background-2"
-            header="Overview"
-            iconName="align-left"
-            linkTo="/"
+            size="col-lg-3"
+            linkTo="/conclusion/overview"
+            header="Conclusion"
+            iconName="scroll"
+            showLink
           >
-            Focus: <strong>Government Policies</strong>
-            <br />
-            Time Period: <strong>1965 to 2000</strong>
-            <br />
+            Answering the HI question and summary
           </SectionDisplay>
-        <SectionDisplay
-          size="col-lg-2"
-          linkTo="/changes"
-          header="Changes"
-          iconName="exchange-alt"
-          showLink
-        >
-          Changes in Singapore, sorted by aspects
-        </SectionDisplay>
-        
-        <SectionDisplay
-          size="col-lg-2"
-          linkTo="/policy-making"
-          header="Bibliography"
-          iconName="scroll"
-          showLink
-        >
-          Citations and references
-        </SectionDisplay>
       </section>
+      <PageFooter prevLink="/error404" prevTitle="" nextDisplay nextLink="/introduction/" nextTitle="Introduction Overview"/>
     </PageTemplate>
   );
 }
-// !TODO: Change the link name for the bibliography and change link redirects
+// ! REDIRECT THE ENTIRE WEBSITE

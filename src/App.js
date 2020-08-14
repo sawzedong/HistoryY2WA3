@@ -8,20 +8,20 @@ import NavDropdownItem from "./components/NavDropdownItem.js";
 import NavDropdown from "./components/NavDropdown.js";
 
 import Home from "./pages/Home";
-import Timeline from "./pages/Timeline";
 
-import ContentChange from "./pages/Changes/ContentChange"
-import HousingChanges from "./pages/Changes/HousingChanges"
-import EnvironmentalChanges from "./pages/Changes/EnvironmentChanges"
-import PopulationChanges from "./pages/Changes/PopulationChanges"
-import MonetaryChanges from "./pages/Changes/MonetaryChanges"
-import SocialChanges from "./pages/Changes/SocialChanges"
+import IntroductionOverview from "./pages/Introduction/Overview"
+import IntroductionPart1 from "./pages/Introduction/IntroPart1"
+import IntroductionTimeline from "./pages/Introduction/Timeline"
+import IntroductionPart2 from "./pages/Introduction/IntroPart2"
 
-import PolicyMaking from "./pages/PolicyMaking.js"
+import ChangesOverview from "./pages/Changes/Overview"
+import ChangesHousing from "./pages/Changes/HousingChanges"
+import ChangesEnvironment from "./pages/Changes/EnvironmentChanges"
+import ChangesPopulation from "./pages/Changes/PopulationChanges"
+import ChangesMonetary from "./pages/Changes/MonetaryChanges"
+import ChangesSocial from "./pages/Changes/SocialChanges"
 
-import TimePeriod1 from "./pages/Time-Periods/time-period-1";
-import TimePeriod2 from "./pages/Time-Periods/time-period-2";
-import TimePeriod3 from "./pages/Time-Periods/time-period-3";
+import ConclusionOverview from "./pages/Conclusion/Overview"
 
 import Error404 from "./pages/Error404";
 
@@ -54,7 +54,30 @@ function App() {
             <div className="dropdown-divider" />
             <ul className="navbar-nav">
               <NavLink to="/" label="Home" />
-              <NavLink to="/timeline" label="Timeline" />
+              <NavDropdown to="/introduction/" label="Introduction" >
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <NavDropdownItem
+                    to="/introduction/"
+                    label="Overview"
+                  />
+                  <div className="dropdown-divider"/>
+                  <NavDropdownItem
+                    to="/introduction/intro1"
+                    label="Part 1"
+                  />
+                  <NavDropdownItem
+                    to="/introduction/timeline"
+                    label="Timeline"
+                  />
+                  <NavDropdownItem
+                    to="/introduction/intro2"
+                    label="Part 2"
+                  />
+                </div>
+              </NavDropdown>
               <NavDropdown to="/changes/" label="Changes" >
                 <div
                   className="dropdown-menu"
@@ -62,52 +85,48 @@ function App() {
                 >
                   <NavDropdownItem
                     to="/changes/"
-                    label="Changes"
+                    label="Overview"
                   />
                   <div className="dropdown-divider"/>
                   <NavDropdownItem
-                    to="/changes/housing-changes"
-                    label="Housing Changes"
+                    to="/changes/housing"
+                    label="Housing"
                   />
                   <NavDropdownItem
-                    to="/changes/environmental-changes"
-                    label="Environmental Changes"
+                    to="/changes/environment"
+                    label="Environment"
                   />
                   <NavDropdownItem
-                    to="/changes/population-changes"
-                    label="Population Changes"
+                    to="/changes/population"
+                    label="Population"
                   />
                   <NavDropdownItem
-                    to="/changes/monetary-changes"
-                    label="Monetary Changes"
+                    to="/changes/monetary"
+                    label="Monetary"
                   />
                   <NavDropdownItem
-                    to="/changes/social-changes"
-                    label="Social Changes"
+                    to="/changes/social"
+                    label="Social"
                   />
                 </div>
               </NavDropdown>
 
-              <NavDropdown to="/time-periods/" label="Time Periods">
+              <NavDropdown to="/conclusion/" label="Conclusion">
                 <div
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <NavDropdownItem
-                    to="/time-periods/time-period-1/"
-                    label="Time Period 1"
+                    to="/conclusion/"
+                    label="Overview"
                   />
+                  <div className="dropdown-divider" />
                   <NavDropdownItem
-                    to="/time-periods/time-period-2/"
-                    label="Time Period 2"
-                  />
-                  <NavDropdownItem
-                    to="/time-periods/time-period-3/"
-                    label="Time Period 3"
+                    to="/conclusion/"
+                    label="BROKEN LINK"
                   />
                 </div>
               </NavDropdown>
-              <NavLink to="/policy-making" label="Policy Making" />
             </ul>
           </div>
         </nav>
@@ -119,71 +138,71 @@ function App() {
             </Helmet>
             <Home />
           </Route>
-          <Route exact path="/timeline">
+          <Route exact path="/introduction/">
             <Helmet>
-              <title>Timeline - History Project</title>
+              <title>Introduction - History Project</title>
             </Helmet>
-            <Timeline />
+            <IntroductionOverview />
+          </Route>
+          <Route exact path="/introduction/intro1">
+            <Helmet>
+              <title>Introduction: Part 1 - History Project</title>
+            </Helmet>
+            <IntroductionPart1 />
+          </Route>
+          <Route exact path="/introduction/timeline">
+            <Helmet>
+              <title>Introduction: Timeline - History Project</title>
+            </Helmet>
+            <IntroductionTimeline />
+          </Route>
+          <Route exact path="/introduction/intro2">
+            <Helmet>
+              <title>Introduction: Part 2 - History Project</title>
+            </Helmet>
+            <IntroductionPart2 />
           </Route>
           <Route exact path="/changes/">
             <Helmet>
               <title>Changes - History Project</title>
             </Helmet>
-            <ContentChange />
+            <ChangesOverview />
           </Route>
-          <Route exact path="/changes/housing-changes">
+          <Route exact path="/changes/housing">
             <Helmet>
-              <title>Housing Changes - History Project</title>
+              <title>Changes: Housing - History Project</title>
             </Helmet>
-            <HousingChanges />
+            <ChangesHousing />
           </Route>
-          <Route exact path="/changes/environmental-changes">
+          <Route exact path="/changes/environment">
             <Helmet>
-              <title>Environmental Changes - History Project</title>
+              <title>Changes: Environment - History Project</title>
             </Helmet>
-            <EnvironmentalChanges />
+            <ChangesEnvironment />
           </Route>
-          <Route exact path="/changes/population-changes">
+          <Route exact path="/changes/population">
             <Helmet>
-              <title>Population Changes - History Project</title>
+              <title>Changes: Population - History Project</title>
             </Helmet>
-            <PopulationChanges />
+            <ChangesPopulation />
           </Route>
-          <Route exact path="/changes/monetary-changes">
+          <Route exact path="/changes/monetary">
             <Helmet>
-              <title>Monetary Changes - History Project</title>
+              <title>Changes: Monetary - History Project</title>
             </Helmet>
-            <MonetaryChanges />
+            <ChangesMonetary />
           </Route>
-          <Route exact path="/changes/social-changes">
+          <Route exact path="/changes/social">
             <Helmet>
-              <title>Social Changes - History Project</title>
+              <title>Changes: Social - History Project</title>
             </Helmet>
-            <SocialChanges />
+            <ChangesSocial />
           </Route>
-          <Route exact path="/policy-making">
+          <Route exact path="/conclusion/">
             <Helmet>
-              <title>Policy Making - History Project</title>
+              <title>Conclusion - History Project</title>
             </Helmet>
-            <PolicyMaking />
-          </Route>
-          <Route exact path="/time-periods/time-period-1">
-            <Helmet>
-              <title>Time Period 1 - History Project</title>
-            </Helmet>
-            <TimePeriod1 />
-          </Route>
-          <Route exact path="/time-periods/time-period-2">
-            <Helmet>
-              <title>Time Period 2 - History Project</title>
-            </Helmet>
-            <TimePeriod2 />
-          </Route>
-          <Route exact path="/time-periods/time-period-3">
-            <Helmet>
-              <title>Time Period 3 - History Project</title>
-            </Helmet>
-            <TimePeriod3 />
+            <ConclusionOverview />
           </Route>
           <Route path="*">
             <Helmet>

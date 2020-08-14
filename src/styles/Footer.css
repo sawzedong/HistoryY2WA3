@@ -1,0 +1,18 @@
+.background-3 {
+    background-color: #121230;
+}
+.pagechange h3 {
+    color: #61dafb;
+}
+.pagechange h1 {
+    color: #fff;
+}
+.right {
+    text-align: right;
+}
+.footerLink {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+.footerLink:hover, .footerLink:active {
+    color: rgba(255, 255, 255, 1) !important;
+}
