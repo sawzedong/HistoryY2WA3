@@ -9,6 +9,8 @@ import NavDropdown from "./components/NavDropdown.js";
 
 import Home from "./pages/Home";
 
+import DHSLogo from "./img/dhs-logo.png"
+
 import IntroductionOverview from "./pages/Introduction/Overview"
 import IntroductionPart1 from "./pages/Introduction/IntroPart1"
 import IntroductionTimeline from "./pages/Introduction/Timeline"
@@ -30,10 +32,11 @@ function App() {
     <>
       <Router>
         <nav
-          className="navbar navbar-expand-md navbar-dark fixed-top"
+          className="navbar navbar-expand-md navbar-dark fixed-top py-md-0"
           id="web-navbar"
         >
           <Link className="navbar-brand" to="/">
+          <img src={DHSLogo} width="30" height="30" class="d-inline-block align-top mr-1" alt="Dunman High School Logo"/>
             HistoryY2WA3
           </Link>
           <button

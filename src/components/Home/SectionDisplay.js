@@ -21,6 +21,7 @@ function SectionDisplay(props) {
             <h2 className={showTheNonLink}>{props.header}</h2>
           </div>
         </div>
+        <div className="dropdown-divider"/>
         <div className="row">
           <div className="col-12 my-auto mx-auto">
             {props.children}
@@ -41,6 +42,7 @@ function SectionDisplay(props) {
             <h2 className={showTheNonLink}>{props.header}</h2>
           </div>
         </div>
+        <div className="dropdown-divider darkDivider"/>
         <div className="h-40 row">
           <div className="col-12 my-auto mx-auto">
             {props.children}

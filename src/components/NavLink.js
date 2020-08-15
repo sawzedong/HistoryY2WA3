@@ -14,7 +14,7 @@ export default function NavLink({ label, to }) {
     exact: true,
   });
   return (
-    <li className={match ? "active nav-item px-2" : "nav-item px-2"}>
+    <li className={match ? "active nav-item px-2 py-2" : "nav-item px-2 py-2"}>
       <Link to={to} className="nav-link">
         {label}
       </Link>

@@ -77,4 +77,3 @@ export default function Home() {
     </PageTemplate>
   );
 }
-// ! REDIRECT THE ENTIRE WEBSITE

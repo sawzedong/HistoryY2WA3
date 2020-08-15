@@ -9,22 +9,28 @@ nav {
   /* background-color: rgba(18, 0, 77, 0.9); */
   backdrop-filter: blur(3.5px);
   /* background-color: rgba(0, 0, 0, 0) */
-  background-image: radial-gradient(ellipse at bottom, rgba(0, 0, 120, 0.9), rgba(0, 0, 0, 0.9))
+  background-image: radial-gradient(ellipse at bottom, rgba(0, 0, 120, 0.98), rgba(0, 0, 0, 0.98))
 }
 .nav-item,
 .dropdown,
 .dropdown-item {
   transition: 230ms ease-in-out;
 }
-.nav-item.active,
-.dropdown-toggle.active,
-.dropdown-item.active {
-  background-color: lightblue;
+.nav-item.active{
+  /* background-color: #61dafb; */
+  border-bottom: 3px solid #61dafb;
+  /* padding-bottom: 15px; */
 }
-.nav-item.active a,
-.dropdown-toggle.active a,
-.dropdown-item.active a {
-  color: black !important;
+.nav-item.active .nav-link {
+  color: #61dafb !important;
+}
+.dropdown-item.active {
+  background-color: #61dafb !important;
+  color: black;
+}
+.dropdown-item:active {
+  background-color: #61dafb !important;
+  color: black;
 }
 .dropdown {
   vertical-align: middle;
@@ -113,6 +119,11 @@ html {
     margin-bottom: 0px !important;
   }
 }
+@media screen and (max-width: 992px) {
+  .custom-xlg-dnone {
+    display: none;
+  }
+}
 table, tr, td {
   border: 1px solid gray;
   border-collapse: collapse;
@@ -150,12 +161,20 @@ body {
 .gradient-background-2.glassCard {
   box-shadow: 0 10px 15px 2px rgba(0, 0, 0, 0.5);
 }
+/*
 .bottomGrayBorder {
   border-bottom: 1px solid rgba(0, 0, 0, 0.4)
-}
+} */
 .h-40 {
   height: 40%;
 }
 .h-60 {
   height: 60%;
+}
+.darkDivider {
+  border: 0.1px solid rgba(0, 0, 0, 0.15);
+}
+.text-paragraph {
+  font-size: 18px;
+
 }

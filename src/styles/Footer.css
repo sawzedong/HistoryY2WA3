@@ -1,11 +1,13 @@
 .background-3 {
     background-color: #121230;
 }
-.pagechange h3 {
+.pagechange .h4 {
     color: #61dafb;
+    display: block;
 }
-.pagechange h1 {
+.pagechange .h2 {
     color: #fff;
+    display: block;
 }
 .right {
     text-align: right;

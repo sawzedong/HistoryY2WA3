@@ -17,6 +17,9 @@ export default function PageTemplate(props) {
   } else if (props.margin) {
     offsetPadding = 0;
     offsetMargin = "32px";
+  } else {
+    offsetPadding = 0;
+    offsetMargin = 0;
   }
   var finalClasses = `${props.classes} PageTemplateClass`;
   return (

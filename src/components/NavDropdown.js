@@ -17,7 +17,7 @@ export default function NavDropdown(props) {
     <>
       <li
         className={
-          match ? "nav-item dropdown active px-2" : "nav-item dropdown px-2"
+          match ? "nav-item dropdown active px-2 py-2" : "nav-item dropdown px-2 py-2"
         }
       >
         <Link
