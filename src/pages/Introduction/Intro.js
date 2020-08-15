@@ -8,7 +8,7 @@ import PageFooter from "../../components/Footer";
 import SGImg1965 from "../../img/SG-img-1965.png"
 import SGImgNow from "../../img/SG-img-now.png"
 
-export default function Introduction_IntroPart1() {
+export default function Introduction_Intro() {
   return (
     <PageTemplate padding>
       <div className="row vw-100">

@@ -47,7 +47,7 @@ export default function Home() {
       <section className="px-3 py-5 vw-100 gradient-background-1 row justify-content-around  min-vh-60">
         <SectionDisplay
             size="col-lg-3"
-            linkTo="/introduction/overview"
+            linkTo="/introduction/"
             header="Introduction"
             iconName="play-circle"
             showLink
@@ -56,7 +56,7 @@ export default function Home() {
           </SectionDisplay>
           <SectionDisplay
             size="col-lg-4 gradient-background-2"
-            linkTo="/changes/overview"
+            linkTo="/changes/"
             header="Changes"
             iconName="exchange-alt"
             showLink
@@ -65,7 +65,7 @@ export default function Home() {
           </SectionDisplay>
           <SectionDisplay
             size="col-lg-3"
-            linkTo="/conclusion/overview"
+            linkTo="/conclusion/"
             header="Conclusion"
             iconName="scroll"
             showLink

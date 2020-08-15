@@ -17,8 +17,8 @@ export default function Changes_Overview() {
           <div className="col-lg-3 col-11 my-2 my-lg-0 py-3 py-lg-0 row glassCard text-center p-2">
             <div className="col-12 mx-auto my-auto">
               <i className="fas fa-home fa-5x"></i>
-              <Link to="/introduction/intro1" className="my-4">
-                <h2 class="h4">Intro Part 1</h2>
+              <Link to="/introduction/intro" className="my-4">
+                <h2 class="h4">Introduction</h2>
               </Link>
             </div>
           </div>
@@ -33,14 +33,14 @@ export default function Changes_Overview() {
           <div className="col-lg-3 col-11 my-2 my-lg-0 py-3 py-lg-0 row glassCard text-center p-2">
             <div className="col-md-12 mx-auto my-auto">
               <i className="fas fa-users fa-5x"></i>
-              <Link to="/introduction/intro2" className="my-4">
-                <h2 class="h4">Intro Part 2</h2>
+              <Link to="/introduction/gathering-data" className="my-4">
+                <h2 class="h4">Gathering Data</h2>
               </Link>
             </div>
           </div>
         </section>
       </div>
-      <PageFooter prevLink="/" prevTitle="Home Page" prevDisplay nextDisplay nextLink="/introduction/intro1" nextTitle="Introduction Part 1"/>
+      <PageFooter prevLink="/" prevTitle="Home Page" prevDisplay nextDisplay nextLink="/introduction/intro" nextTitle="Introduction"/>
     </PageTemplate>
   );
 }

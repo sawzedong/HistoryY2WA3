@@ -12,9 +12,9 @@ import Home from "./pages/Home";
 import DHSLogo from "./img/dhs-logo.png"
 
 import IntroductionOverview from "./pages/Introduction/Overview"
-import IntroductionPart1 from "./pages/Introduction/IntroPart1"
+import IntroductionIntro from "./pages/Introduction/Intro"
 import IntroductionTimeline from "./pages/Introduction/Timeline"
-import IntroductionPart2 from "./pages/Introduction/IntroPart2"
+import IntroductionGatheringData from "./pages/Introduction/GatheringData"
 
 import ChangesOverview from "./pages/Changes/Overview"
 import ChangesHousing from "./pages/Changes/HousingChanges"
@@ -68,16 +68,16 @@ function App() {
                   />
                   <div className="dropdown-divider"/>
                   <NavDropdownItem
-                    to="/introduction/intro1"
-                    label="Part 1"
+                    to="/introduction/intro"
+                    label="Intro"
                   />
                   <NavDropdownItem
                     to="/introduction/timeline"
                     label="Timeline"
                   />
                   <NavDropdownItem
-                    to="/introduction/intro2"
-                    label="Part 2"
+                    to="/introduction/gathering-data"
+                    label="Gathering Data"
                   />
                 </div>
               </NavDropdown>
@@ -147,11 +147,11 @@ function App() {
             </Helmet>
             <IntroductionOverview />
           </Route>
-          <Route exact path="/introduction/intro1">
+          <Route exact path="/introduction/intro">
             <Helmet>
-              <title>Introduction: Part 1 - History Project</title>
+              <title>Introduction - History Project</title>
             </Helmet>
-            <IntroductionPart1 />
+            <IntroductionIntro />
           </Route>
           <Route exact path="/introduction/timeline">
             <Helmet>
@@ -159,11 +159,11 @@ function App() {
             </Helmet>
             <IntroductionTimeline />
           </Route>
-          <Route exact path="/introduction/intro2">
+          <Route exact path="/introduction/gathering-data">
             <Helmet>
-              <title>Introduction: Part 2 - History Project</title>
+              <title>Introduction: Gathering Data - History Project</title>
             </Helmet>
-            <IntroductionPart2 />
+            <IntroductionGatheringData />
           </Route>
           <Route exact path="/changes/">
             <Helmet>

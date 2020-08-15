@@ -56,6 +56,7 @@ export default function Changes_Overview() {
           </div>
         </section>
       </div>
+      <PageFooter prevLink="/introduction/gathering-data" prevTitle="Gathering Data" prevDisplay nextDisplay nextLink="/changes/housing" nextTitle="Housing Changes"/>
     </PageTemplate>
   );
 }
