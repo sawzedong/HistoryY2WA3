@@ -14,7 +14,7 @@ export default function PageFooter(props) {
   const previousArticleText = props.prevDisplay ? "Previous Page" : ""
   const nextArticleText = props.nextDisplay ? "Next Page" : ""
   return (
-    <footer class="min-vh-40 row justify-content-between background-3 px-2">
+    <footer class="min-vh-30 py-5 row justify-content-between background-3 px-2">
         <div class="col-md-6 left pagechange row p-0">
             <div class="col-12 mx-auto my-auto">
             <span class="h4">{previousArticleText}</span>

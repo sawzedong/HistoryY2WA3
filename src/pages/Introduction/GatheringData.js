@@ -56,11 +56,12 @@ export default function Introduction_GatheringData() {
           <div className="col-lg-8 col-md-10">
             <h3>Mr Cheong Kwek Kwong</h3>
             <p className="text-paragraph">
-              Mr Cheong Kwek Kwong is part of the merdeka generation, and has
-              witnessed the development of Singapore since her independence. He
-              has seen Singapore transform from a third world country to a first
-              world country and would provide great insights on how Singapore
-              has developed over the past few decades.
+              Mr Cheong Kwek Kwong has retired as a senior manager, is part of
+              the merdeka generation, and has witnessed the development of
+              Singapore since her independence. He has seen Singapore transform
+              from a third world country to a first world country and would
+              provide great insights on how Singapore has developed over the
+              past few decades.
             </p>
           </div>
           <div className="col-lg-4">

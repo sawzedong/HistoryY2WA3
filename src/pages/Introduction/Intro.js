@@ -14,7 +14,7 @@ export default function Introduction_Intro() {
       <div className="row vw-100">
         <div className="min-vh-100 col-md-10 col-lg-8 p-2">
           <h1>Introduction</h1>
-          <p>
+          <p className="text-paragraph">
             A brief overview to our topic of focus and the Historical
             Investigation question.
           </p>

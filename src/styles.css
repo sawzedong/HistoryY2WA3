@@ -48,8 +48,8 @@ nav {
 .min-vh-40 {
   min-height: 40vh;
 }
-.min-vh-20 {
-  min-height: 20vh;
+.min-vh-30 {
+  min-height: 30vh;
 }
 .vh-40 {
   height: 40vh;
@@ -177,4 +177,10 @@ body {
 .text-paragraph {
   font-size: 18px;
 
+}
+.selected {
+  background-color: rgba(97, 218, 251, 0.5)
+}
+.footnoteCitation {
+  font-size: 12px;
 }
