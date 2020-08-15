@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/HistoryY2WA3/static/css/main.04fe8789.chunk.css",
-    "main.js": "/HistoryY2WA3/static/js/main.c18e6afb.chunk.js",
-    "main.js.map": "/HistoryY2WA3/static/js/main.c18e6afb.chunk.js.map",
+    "main.css": "/HistoryY2WA3/static/css/main.e0a38694.chunk.css",
+    "main.js": "/HistoryY2WA3/static/js/main.4d474f51.chunk.js",
+    "main.js.map": "/HistoryY2WA3/static/js/main.4d474f51.chunk.js.map",
     "runtime-main.js": "/HistoryY2WA3/static/js/runtime-main.11f88daa.js",
     "runtime-main.js.map": "/HistoryY2WA3/static/js/runtime-main.11f88daa.js.map",
     "static/css/2.4707e12a.chunk.css": "/HistoryY2WA3/static/css/2.4707e12a.chunk.css",
-    "static/js/2.48447cb6.chunk.js": "/HistoryY2WA3/static/js/2.48447cb6.chunk.js",
-    "static/js/2.48447cb6.chunk.js.map": "/HistoryY2WA3/static/js/2.48447cb6.chunk.js.map",
+    "static/js/2.0a49a9d1.chunk.js": "/HistoryY2WA3/static/js/2.0a49a9d1.chunk.js",
+    "static/js/2.0a49a9d1.chunk.js.map": "/HistoryY2WA3/static/js/2.0a49a9d1.chunk.js.map",
     "index.html": "/HistoryY2WA3/index.html",
-    "precache-manifest.4edbed07b1ef1c3a066196dc0d2f8bdf.js": "/HistoryY2WA3/precache-manifest.4edbed07b1ef1c3a066196dc0d2f8bdf.js",
+    "precache-manifest.8615491bd51c74f1d0612d1143bb77ed.js": "/HistoryY2WA3/precache-manifest.8615491bd51c74f1d0612d1143bb77ed.js",
     "service-worker.js": "/HistoryY2WA3/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/HistoryY2WA3/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.04fe8789.chunk.css.map": "/HistoryY2WA3/static/css/main.04fe8789.chunk.css.map",
-    "static/js/2.48447cb6.chunk.js.LICENSE.txt": "/HistoryY2WA3/static/js/2.48447cb6.chunk.js.LICENSE.txt",
+    "static/css/main.e0a38694.chunk.css.map": "/HistoryY2WA3/static/css/main.e0a38694.chunk.css.map",
+    "static/js/2.0a49a9d1.chunk.js.LICENSE.txt": "/HistoryY2WA3/static/js/2.0a49a9d1.chunk.js.LICENSE.txt",
+    "static/media/Figure-1-1.png": "/HistoryY2WA3/static/media/Figure-1-1.9b3baf09.png",
     "static/media/SG-img-1965.png": "/HistoryY2WA3/static/media/SG-img-1965.7bcb4d7b.png",
     "static/media/SG-img-now.png": "/HistoryY2WA3/static/media/SG-img-now.8f363b68.png",
     "static/media/dhs-logo.png": "/HistoryY2WA3/static/media/dhs-logo.b02e40ef.png",
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.11f88daa.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.48447cb6.chunk.js",
-    "static/css/main.04fe8789.chunk.css",
-    "static/js/main.c18e6afb.chunk.js"
+    "static/js/2.0a49a9d1.chunk.js",
+    "static/css/main.e0a38694.chunk.css",
+    "static/js/main.4d474f51.chunk.js"
   ]
 }
