@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "735fa2352cae520419b8a3387058c09a",
+    "revision": "16535073fbe7c3f65b3f8b2df44f044e",
     "url": "/HistoryY2WA3/index.html"
   },
   {
-    "revision": "9022c5f7f016e407e461",
+    "revision": "972cd62ac54163fe973f",
     "url": "/HistoryY2WA3/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "16c7c5f562673d6b86ae",
+    "revision": "20d8f3438ea3e32885ce",
     "url": "/HistoryY2WA3/static/css/main.04fe8789.chunk.css"
   },
   {
-    "revision": "9022c5f7f016e407e461",
-    "url": "/HistoryY2WA3/static/js/2.b2979c5c.chunk.js"
+    "revision": "972cd62ac54163fe973f",
+    "url": "/HistoryY2WA3/static/js/2.48447cb6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/HistoryY2WA3/static/js/2.b2979c5c.chunk.js.LICENSE.txt"
+    "url": "/HistoryY2WA3/static/js/2.48447cb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "16c7c5f562673d6b86ae",
-    "url": "/HistoryY2WA3/static/js/main.655dff60.chunk.js"
+    "revision": "20d8f3438ea3e32885ce",
+    "url": "/HistoryY2WA3/static/js/main.c18e6afb.chunk.js"
   },
   {
     "revision": "d9fc3765e8d32cdf245b",
@@ -42,5 +42,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "69bd419dea61853ced769442b078b7e7",
     "url": "/HistoryY2WA3/static/media/homepage-img.69bd419d.svg"
+  },
+  {
+    "revision": "21571b3b6e26de1d8f5a12e3a1925620",
+    "url": "/HistoryY2WA3/static/media/interviewee-mr-cheong.21571b3b.png"
+  },
+  {
+    "revision": "f4778e60bd61d14c24cc25ee0b7cea6c",
+    "url": "/HistoryY2WA3/static/media/interviewee-mr-emmanuel.f4778e60.png"
   }
 ]);
