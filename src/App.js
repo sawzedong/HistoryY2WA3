@@ -35,7 +35,7 @@ function App() {
           className="navbar navbar-expand-md navbar-dark fixed-top py-md-0"
           id="web-navbar"
         >
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand py-0 py-md-2" to="/">
           <img src={DHSLogo} width="30" height="30" class="d-inline-block align-top mr-1" alt="Dunman High School Logo"/>
             HistoryY2WA3
           </Link>

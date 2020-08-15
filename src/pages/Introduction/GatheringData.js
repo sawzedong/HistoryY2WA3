@@ -5,6 +5,7 @@ import PageFooter from "../../components/Footer";
 
 import IntervieweeMrEmmanuel from "../../img/interviewee-mr-emmanuel.png";
 import IntervieweeMrCheong from "../../img/interviewee-mr-cheong.png";
+import IntervieweeMrKong from "../../img/interviewee-mr-kong.jpeg";
 
 export default function Introduction_GatheringData() {
   return (
@@ -39,17 +40,32 @@ export default function Introduction_GatheringData() {
             <img
               src={IntervieweeMrEmmanuel}
               alt="Potrait of Mr Emmanuel"
-              className="img-fluid"
+              width="150"
+              height="200"
             />
           </div>
         </div>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
-            <h3>Mr Kong</h3>
-            <p className="text-paragraph"></p>
+            <h3>Mr Mike Kong</h3>
+            <p className="text-paragraph">
+              Mr Mike Kong works as a Sales manager in the business sector. Born
+              in the 1970s, he is the first generation of Singaporeans that was
+              born after independence. He is a suitable interviewee as he is the
+              first generation that experienced the life of independent
+              Singapore, and has experienced the changes of Singapore from a
+              third world country to first world country after independence.
+            </p>
           </div>
-          <div className="col-lg-4"></div>
+          <div className="col-lg-4">
+            <img
+              src={IntervieweeMrKong}
+              alt="Potrait Of Mr Kong"
+              width="150"
+              height="200"
+            />
+          </div>
         </div>
 
         <div className="info-category py-3 row w-100 ">
@@ -68,7 +84,8 @@ export default function Introduction_GatheringData() {
             <img
               src={IntervieweeMrCheong}
               alt="Potrait of Mr Cheong"
-              className="img-fluid"
+              width="150"
+              height="200"
             />
           </div>
         </div>

@@ -8,6 +8,9 @@ import InTextCitation from "../../components/Citation/InTextCitation.js";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Figure1_1 from "../../img/Figure-1-1.png";
+import CPFImg from "../../img/CPF.png";
+import EIP from "../../img/ethnic-integration-policy.png"
+import ROH from "../../img/roh.png"
 
 export default function Changes_Housing() {
   return (
@@ -29,53 +32,51 @@ export default function Changes_Housing() {
           <div className="col-lg-8 col-md-10">
             <h4>CPF</h4>
             <p className="text-paragraph">
-              "In 1968, to help more become homeowners, the government allowed
-              the use of Central Provident Fund (CPF) savings for the
-              downpayment and to service the monthly mortgage loan instalments.
-              This, together with other schemes and grants introduced over the
-              years, has made home ownership highly affordable and attractive."
+              "to help more become homeowners, the government allowed the use of
+              Central Provident Fund (CPF) savings for the downpayment and to
+              service the monthly mortgage loan instalments...made home
+              ownership highly affordable and attractive."
               <InTextCitation ID={1} /> <br />
               -Housing Development Board
             </p>
             <p className="text-paragraph">
-              The Central Provident Fund(CPF) scheme helps to relieve financial
-              burden as the part of their income that is contributed to their
-              CPF can be used to pay off the mortgage of the housing, thus they
-              will have more money to fulfill the basic needs of living.
-              Furthermore, locals can apply for grants and schemes which will
-              subsidise the cost of their first public housing according to
-              their gross annual income making public housing more appealing to
-              lower income people.
+              The Central Provident Fund (CPF) scheme helps to relieve financial
+              burden as part of their income that is contributed to CPF, and can
+              be used to pay off the mortgage of the housing, thus they will
+              have more money to fulfill the basic needs of living. This makes
+              public housing more appealing to lower income people.
             </p>
           </div>
+          <div className="col-lg-4">
+            <img src={CPFImg} className="img-fluid" alt="CPF Logo" />
+          </div>
+        </div>
 
-          <div className="info-category py-3 row w-100">
-            <div className="col-lg-8 col-md-10">
-              <h4>Singles Purchasing Government Housing (Before)</h4>
-              <p className="text-paragraph">
-                "So at the same time, a housing policy is that if you are
-                single, you cannot purchase any government housing. You have to
-                go for private housing and sometimes private housing is
-                expensive and you have no choice. You have to stay with your
-                parents until you are married in order to get your own housing.
-                That somehow has indirectly affected the individual who cannot
-                afford a housing and cannot stay alone by yourself and be
-                independent."
-                <InTextCitation ID={2} /> <br />
-                -Mr Cheong
-              </p>
-              <p className="text-paragraph">
-                In the 1960s to 1980s, the government did not allow singles to
-                buy a HDB flat. As a HDB flat will at least need to accommodate
-                a family of 3 or more, it ensures that there is sufficient
-                supply of public housing to meet the demand of the growing
-                population and alleviate the problem of housing shortage in
-                Singapore. This suggests that the government was more focused on
-                providing a form of housing for the mass majority of
-                Singaporeans instead of a selected group of people in the
-                society ie. singles.
-              </p>
-            </div>
+        <div className="info-category py-3 row w-100">
+          <div className="col-lg-8 col-md-10">
+            <h4>Singles Purchasing Government Housing (Before)</h4>
+            <p className="text-paragraph">
+              "a housing policy is that if you are single, you cannot purchase
+              any government housing. You have to go for private housing and
+              sometimes private housing is expensive...You have to stay with
+              your parents until you are married in order to get your own
+              housing."
+              <InTextCitation ID={2} /> <br />
+              -Mr Cheong
+            </p>
+            <p className="text-paragraph">
+              In the 1960s to 1980s, the government did not allow singles to buy
+              a HDB flat. With a minimum family size in HDBs, it ensures
+              sufficient supply of public housing to meet the demand of the
+              growing population and alleviate the problem of housing shortage.
+              The government was more focused on providing a form of housing for
+              the mass majority of Singaporeans instead of a selected group of
+              people in the society ie. singles.
+            </p>
+          </div>
+          <div className="col-lg-4 text-center d-flex flex-lg-column flex-row">
+            <i className="fas fa-user-slash fa-5x py-4"></i>
+            <i className="fas fa-house-damage fa-5x py-4"></i>
           </div>
         </div>
 
@@ -83,28 +84,26 @@ export default function Changes_Housing() {
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
-            <h4>Singles Purchasing Government Housing (After)</h4>
+            <h4>Singles Purchase Scheme (After)</h4>
             <p className="text-paragraph">
-              "Uh i learnt about for example singapore’s public housing policies
-              with regarding Single’s purchase scheme, about how singles can
-              purchase flats, whereas previously they couldn’t, and when i was
-              an adult they made changes to allow uh single parent families or
-              families with single parents to purchase HDBs as well, which I
-              think is a fantastic move."
+              "I learnt about singapore’s public housing policies with regarding
+              Single’s purchase scheme, about how singles can purchase flats,
+              whereas previously they couldn’t,.."
               <InTextCitation ID={3} /> <br />
               -Mr Emmanuel
             </p>
             <p className="text-paragraph">
-              In the interview with Mr. Emmanuel, he pointed out that the
-              single’s purchase scheme has already been put in place in the
-              2000s. I can infer that in the 1980s to 2000s, the single purchase
-              scheme was implemented to promote a more inclusive society in
-              which all Singaporeans are not left behind. This suggests that the
-              government has taken a different approach to housing policies from
-              a model that focused on satisfying the general need for housing to
-              one that is more catered to the needs of different people in the
-              society, in this case the singles in the society.
+              Our Homeland policy was implemented to better the lives of people
+              living in older HDB estates. The policy included the creation of
+              upgraded facilities and improvements to connectivity, improving
+              the quality of living in older neighbourhoods as they encourage
+              residents living in different areas to mingle and interact,
+              helping to strengthen the sense of belonging in the people.
             </p>
+          </div>
+          <div className="col-lg-4 text-center d-flex flex-lg-column flex-row">
+            <i className="fas fa-user fa-5x py-4"></i>
+            <i className="fas fa-home fa-5x py-4"></i>
           </div>
         </div>
 
@@ -112,11 +111,10 @@ export default function Changes_Housing() {
           <div className="col-lg-8 col-md-10">
             <h4>Ethnic Integration Policy</h4>
             <p className="text-paragraph">
-              "The Ethnic Integration Policy (EIP) was introduced in 1989 to
-              ensure a balanced mix of ethnic groups living in HDB estates, so
-              as to promote racial harmony and strengthen social cohesion. It
-              applies to the sale and purchase of all new and resale HDB flats,
-              and is implemented for all ethnic groups."
+              "...to ensure a balanced mix of ethnic groups living in HDB
+              estates, so as to promote racial harmony and strengthen social
+              cohesion. It applies to the sale and purchase of all new and
+              resale HDB flats, and is implemented for all ethnic groups."
               <InTextCitation ID={4} />
               <br />
               -Housing Development Board
@@ -124,11 +122,13 @@ export default function Changes_Housing() {
             <p className="text-paragraph">
               The implementation of the Ethinic Integration Policy in 1989 helps
               to solve the problem of social segregation where racial groups
-              live in specific areas ie. Kampong Glam, Little India, China Town.
-              This promotes diversity and cultural awareness within communities
-              which was crucial in shaping Singapore into a harmonious
-              multi-racial country.
+              live in specific areas, promoting diversity and cultural awareness
+              within communities which was crucial in shaping Singapore into a
+              harmonious multi-racial country.
             </p>
+          </div>
+          <div className="col-lg-4">
+            <img src={EIP} className="img-fluid" alt="Children of 4 races standing together" />
           </div>
         </div>
 
@@ -136,32 +136,27 @@ export default function Changes_Housing() {
           <div className="col-lg-8 col-md-10">
             <h4>Remaking our Homeland</h4>
             <p className="text-paragraph">
-              "Unveiled by Prime Minister Lee Hsien Loong at the National Day
-              Rally in 2007, the Remaking Our Heartland (ROH) initiative was
-              launched as a comprehensive rejuvenation blueprint to renew and
-              further develop existing HDB towns and estates. Through the
-              programme, exciting plans have been drawn up to renew HDB estates,
-              with blueprints tailored to meet the changing needs of our
-              community and capitalise on the distinct characteristics of each
-              area."
+              "...Remaking Our Heartland (ROH) initiative was launched as a
+              comprehensive rejuvenation blueprint to renew and further develop
+              existing HDB towns and estates...exciting plans have been drawn up
+              to renew HDB estates, with blueprints tailored to meet the
+              changing needs of our community and capitalise on the distinct
+              characteristics of each area."
               <InTextCitation ID={5} />
               <br />
               -Housing Development Board
             </p>
             <p className="text-paragraph">
               Our Homeland policy was implemented to better the lives of people
-              living in older HDB estates. The policy has seen the creation of
-              upgraded Town and Neighbourhood Centres, parks, new communal
-              spaces, and improvements to connectivity which improves the
-              quality of living in older neighbourhoods. These new facilities
-              encourage residents living in different areas to minger and
-              interact as compared to the old void decks, serving as spaces for
-              community activities and daily social interactions for different
-              age groups. By capitalising on the distinctive physical features
-              and landmarks, this policy also helps to preserve the visual
-              quality, character and identity of the place, thus strengthening
-              the sense of belonging in the people.
+              living in older HDB estates. The policy included the creation of
+              upgraded facilities and improvements to connectivity, improving
+              the quality of living in older neighbourhoods as they encourage
+              residents living in different areas to mingle and interact,
+              helping to strengthen the sense of belonging in the people.
             </p>
+          </div>
+          <div className="col-lg-4">
+            <img src={ROH} className="img-fluid fit-full-img" alt="Remaking Our Homeland Logo" />
           </div>
         </div>
 
@@ -198,28 +193,30 @@ export default function Changes_Housing() {
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <p className="text-paragraph">
-              "By 1965, within a decade of our formation, we had built 54,000
-              flats. Singapore's public housing has housed an entire nation –
-              today, more than 1 million flats have been completed in 23 towns
-              and 3 estates across the island. HDB flats are home to over 80% of
-              Singapore's resident population, with about 90% of these resident
-              households proudly owning their home."
+              "By 1965...we had built 54,000 flats. Singapore's public housing
+              has housed an entire nation – today, more than 1 million flats
+              have been completed in 23 towns and 3 estates across the island.
+              HDB flats are home to over 80% of Singapore's resident population,
+              with about 90% of these resident households proudly owning their
+              home."
               <InTextCitation ID={7} />
               <br />
               -Housing Development Board
             </p>
             <p className="text-paragraph">
               From the source, it is stated that 9 out of 10 Singaporeans own an
-              HDB and the number of flats has increased from 54000 in 1965 to
-              approximately 1 million nowadays. I can infer that policies
-              implemented from the 1965s to the present day to make public
-              housing affordable and of high quality has successfully increased
-              the popularity of public housing and maintained a constant demand
-              for public housing. With universal ownership of public housing
-              among Singaporeans, this has also created a sense of security of
-              having a place to call ‘home’, giving them a sense of belonging to
-              Singapore.
+              HDB and the number of flats has increased from 54000 approximately
+              1 million. Policies implemented from the 1965s to the present day
+              to make public housing affordable and of high quality have
+              successfully increased the popularity of public housing and
+              maintained a constant demand for public housing. With universal
+              ownership of public housing among Singaporeans, this has also
+              created a sense of security of having a place to call ‘home’,
+              giving them a sense of belonging to Singapore.
             </p>
+          </div>
+          <div className="col-lg-4 text-center">
+            <i className="fas fa-house-user fa-7x py-4"></i>
           </div>
         </div>
 
@@ -267,6 +264,14 @@ export default function Changes_Housing() {
           </a>
         </FootnoteCitation>
       </div>
+      <PageFooter
+        prevLink="/changes/"
+        prevTitle="Changes Overview"
+        prevDisplay
+        nextDisplay
+        nextLink="/changes/population"
+        nextTitle="Population Changes"
+      />
     </PageTemplate>
   );
 }

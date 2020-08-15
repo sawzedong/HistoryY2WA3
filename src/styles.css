@@ -119,10 +119,12 @@ html {
     margin-bottom: 0px !important;
   }
 }
+
 @media screen and (max-width: 992px) {
   .custom-xlg-dnone {
     display: none;
   }
+
 }
 table, tr, td {
   border: 1px solid gray;
@@ -183,4 +185,7 @@ body {
 }
 .footnoteCitation {
   font-size: 12px;
+}
+.fit-full-img {
+  width: 100%;
 }
