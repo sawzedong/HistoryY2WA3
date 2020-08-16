@@ -43,7 +43,7 @@ export default function Phase1() {
             <p className="text-paragraph">
               This helps to solve Singapore’s pressing problems quickly and
               ensure that the basic needs of the people are satisfied which will
-              lead to a more stable society.Ï
+              lead to a more stable society.
             </p>
           </div>
           <div className="col-lg-4"></div>
