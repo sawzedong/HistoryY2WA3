@@ -11,6 +11,8 @@ import Figure3_3 from "../../img/Figure-3-3.png";
 
 import EDB from "../../img/EDB.png"
 import JTC from "../../img/JTC.png"
+import MAS from "../../img/MAS.jpeg"
+import NCB from "../../img/NCB.png"
 
 export default function Changes_Economic() {
   return (
@@ -148,7 +150,9 @@ export default function Changes_Economic() {
               Singapore’s economy.
             </p>
           </div>
-          <div className="col-lg-4"></div>
+          <div className="col-lg-4">
+          <img src={MAS} className="img-fluid" alt="MAS logo"/>
+          </div>
         </div>
 
         <h3 className="py-2">Phase 2: Skill- and Capital-Based Industries</h3>
@@ -205,7 +209,9 @@ export default function Changes_Economic() {
               new jobs that are related to technology.
             </p>
           </div>
-          <div className="col-lg-4"></div>
+          <div className="col-lg-4">
+          <img src={NCB} className="fit-full-img" alt="NCB logo"/>
+          </div>
         </div>
 
         <div className="info-category py-3 row w-100">
@@ -427,6 +433,14 @@ export default function Changes_Economic() {
           </a>
         </FootnoteCitation>
       </div>
+      <PageFooter
+        prevLink="/changes/population"
+        prevTitle="Population Changes "
+        prevDisplay
+        nextDisplay
+        nextLink="/conclusion/"
+        nextTitle="Conclusion Overview"
+      />
     </PageTemplate>
   );
 }

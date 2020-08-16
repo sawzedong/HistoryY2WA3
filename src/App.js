@@ -22,6 +22,8 @@ import ChangesPopulation from "./pages/Changes/PopulationChanges"
 import ChangesEconomic from "./pages/Changes/EconomicChanges"
 
 import ConclusionOverview from "./pages/Conclusion/Overview"
+import ConclusionPhase1 from "./pages/Conclusion/Phase1"
+import ConclusionPhase2 from "./pages/Conclusion/Phase2"
 
 import Error404 from "./pages/Error404";
 
@@ -115,8 +117,12 @@ function App() {
                   />
                   <div className="dropdown-divider" />
                   <NavDropdownItem
-                    to="/conclusion/"
-                    label="BROKEN LINK"
+                    to="/conclusion/phase1"
+                    label="Phase 1"
+                  />
+                  <NavDropdownItem
+                    to="/conclusion/phase2"
+                    label="Phase 2"
                   />
                 </div>
               </NavDropdown>
@@ -184,6 +190,18 @@ function App() {
               <title>Conclusion - History Project</title>
             </Helmet>
             <ConclusionOverview />
+          </Route>
+          <Route exact path="/conclusion/phase1">
+            <Helmet>
+              <title>Conclusion: Phase 1 - History Project</title>
+            </Helmet>
+            <ConclusionPhase1 />
+          </Route>
+          <Route exact path="/conclusion/phase2">
+            <Helmet>
+              <title>Conclusion: Phase 2 - History Project</title>
+            </Helmet>
+            <ConclusionPhase2 />
           </Route>
           <Route path="*">
             <Helmet>

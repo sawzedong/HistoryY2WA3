@@ -60,7 +60,7 @@ export default function Home() {
             iconName="exchange-alt"
             showLink
           >
-            Changes
+            How Singapore's Government Policies have changed and how they have impacted Singapore
           </SectionDisplay>
           <SectionDisplay
             size="col-lg-3"

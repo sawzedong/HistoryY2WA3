@@ -11,7 +11,7 @@ export default function Changes_Overview() {
       <div className="min-vh-100 gradient-background-1">
         <section className="min-vh-40 vw-100 row">
           <div className="text-center col-md-12 my-auto mx-auto">
-            <h1 className="imptText">CHANGES</h1>
+            <h1 className="imptText">CHANGES CONTENTS</h1>
           </div>
         </section>
         <section className="min-vh-40 vw-100 row justify-content-around">
