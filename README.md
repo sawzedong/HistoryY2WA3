@@ -1,7 +1,16 @@
 
-# History Y2 WA3 Website Draft  
+# History Y2 WA3 Website  
 
-This website is in the development. Please check back again later.
+This is for 2020 2H Group 3, History Weighted Assessment 3.
+
+## View Website
+View Website Here:  
+[https://sawzedong.github.io/HistoryY2WA3/#/](https://sawzedong.github.io/HistoryY2WA3/#/)
+
+## Website Overview  
+**Built For**: History Y2 WA3 (Final Product)  
+**Built In**: June to August 2020  
+**Built By**: 20Y2H Group 3  
 
 ## Dependencies
 #### Page Content
@@ -21,3 +30,6 @@ This websites functions on the following dependencies:
 + [FontAwesome](https://fontawesome.com/)
 
 If your browser cannot display the website, please ensure that these dependencies were not blocked.
+
+Copyright &copy; 2020. All rights reserved.
+

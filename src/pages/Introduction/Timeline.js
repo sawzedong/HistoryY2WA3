@@ -2,7 +2,12 @@
 import React from "react";
 import PageTemplate from "../../components/PageTemplate";
 import PageFooter from "../../components/Footer";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "../../styles/Timeline.css";
+
+AOS.init();
+
 function TimelineEntry(props) {
   var rightStyle = props.ID % 2 === 0 ? "timeline-wrapper-right row" : "d-none";
   var leftStyle = props.ID % 2 === 1 ? "timeline-wrapper-left row" : "d-none";
@@ -10,7 +15,7 @@ function TimelineEntry(props) {
     <>
       <div className={rightStyle}>
         <div className="timeline-item my-auto text-left"></div>
-        <div className="timeline-text my-auto p-2 text-left">
+        <div className="timeline-text my-auto p-2 text-left" data-aos="fade-left" data-aos-offset="170">
           <h3 className="h4">{props.header}</h3>
           <h4 className="h5">{props.date}</h4>
           <p className="text-paragraph">
@@ -18,8 +23,8 @@ function TimelineEntry(props) {
           </p>
         </div>
       </div>
-      <div className={leftStyle}>
-        <div className="timeline-text my-auto p-2 text-left">
+      <div className={leftStyle} >
+        <div className="timeline-text my-auto p-2 text-left"  data-aos="fade-right" data-aos-offset="170">
           <h3 className="h4">{props.header}</h3>
           <h4 className="h5">{props.date}</h4>
           <p className="text-paragraph">

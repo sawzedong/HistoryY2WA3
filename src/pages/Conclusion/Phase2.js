@@ -6,7 +6,7 @@ export default function Phase2() {
   return (
     <PageTemplate padding>
       <div className="p-2">
-        <h1>Conclusion: Phase 2</h1>
+        <h1>Conclusion: Phase 2 - Outstanding Nation</h1>
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <p className="text-paragraph"></p>
