@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/HistoryY2WA3/static/css/main.aad66892.chunk.css",
-    "main.js": "/HistoryY2WA3/static/js/main.b9aade2a.chunk.js",
-    "main.js.map": "/HistoryY2WA3/static/js/main.b9aade2a.chunk.js.map",
+    "main.js": "/HistoryY2WA3/static/js/main.4c5891b5.chunk.js",
+    "main.js.map": "/HistoryY2WA3/static/js/main.4c5891b5.chunk.js.map",
     "runtime-main.js": "/HistoryY2WA3/static/js/runtime-main.11f88daa.js",
     "runtime-main.js.map": "/HistoryY2WA3/static/js/runtime-main.11f88daa.js.map",
     "static/css/2.4707e12a.chunk.css": "/HistoryY2WA3/static/css/2.4707e12a.chunk.css",
-    "static/js/2.f16a89bc.chunk.js": "/HistoryY2WA3/static/js/2.f16a89bc.chunk.js",
-    "static/js/2.f16a89bc.chunk.js.map": "/HistoryY2WA3/static/js/2.f16a89bc.chunk.js.map",
+    "static/js/2.ec27dae8.chunk.js": "/HistoryY2WA3/static/js/2.ec27dae8.chunk.js",
+    "static/js/2.ec27dae8.chunk.js.map": "/HistoryY2WA3/static/js/2.ec27dae8.chunk.js.map",
     "index.html": "/HistoryY2WA3/index.html",
-    "precache-manifest.ff76212649e14c07f7df671199e0cb84.js": "/HistoryY2WA3/precache-manifest.ff76212649e14c07f7df671199e0cb84.js",
+    "precache-manifest.797ec694e05357d92145a956a96ce13d.js": "/HistoryY2WA3/precache-manifest.797ec694e05357d92145a956a96ce13d.js",
     "service-worker.js": "/HistoryY2WA3/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/HistoryY2WA3/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.aad66892.chunk.css.map": "/HistoryY2WA3/static/css/main.aad66892.chunk.css.map",
-    "static/js/2.f16a89bc.chunk.js.LICENSE.txt": "/HistoryY2WA3/static/js/2.f16a89bc.chunk.js.LICENSE.txt",
+    "static/js/2.ec27dae8.chunk.js.LICENSE.txt": "/HistoryY2WA3/static/js/2.ec27dae8.chunk.js.LICENSE.txt",
     "static/media/CPF.png": "/HistoryY2WA3/static/media/CPF.54041137.png",
     "static/media/Figure-1-1.png": "/HistoryY2WA3/static/media/Figure-1-1.bffe404e.png",
     "static/media/Figure-2-1.jpg": "/HistoryY2WA3/static/media/Figure-2-1.4e1b10db.jpg",
@@ -29,19 +29,22 @@
     "static/media/NCB.png": "/HistoryY2WA3/static/media/NCB.89d5707b.png",
     "static/media/SG-img-1965.png": "/HistoryY2WA3/static/media/SG-img-1965.7bcb4d7b.png",
     "static/media/SG-img-now.png": "/HistoryY2WA3/static/media/SG-img-now.8f363b68.png",
+    "static/media/developed-SG-2.jpeg": "/HistoryY2WA3/static/media/developed-SG-2.d3dccbe2.jpeg",
+    "static/media/developed-SG.jpeg": "/HistoryY2WA3/static/media/developed-SG.8b97fa60.jpeg",
     "static/media/dhs-logo.png": "/HistoryY2WA3/static/media/dhs-logo.b02e40ef.png",
     "static/media/ethnic-integration-policy.png": "/HistoryY2WA3/static/media/ethnic-integration-policy.f813a29b.png",
     "static/media/homepage-img.svg": "/HistoryY2WA3/static/media/homepage-img.69bd419d.svg",
     "static/media/interviewee-mr-cheong.png": "/HistoryY2WA3/static/media/interviewee-mr-cheong.21571b3b.png",
     "static/media/interviewee-mr-emmanuel.png": "/HistoryY2WA3/static/media/interviewee-mr-emmanuel.f4778e60.png",
     "static/media/interviewee-mr-kong.jpeg": "/HistoryY2WA3/static/media/interviewee-mr-kong.511e804c.jpeg",
-    "static/media/roh.png": "/HistoryY2WA3/static/media/roh.0026a062.png"
+    "static/media/roh.png": "/HistoryY2WA3/static/media/roh.0026a062.png",
+    "static/media/singapore-1965.jpg": "/HistoryY2WA3/static/media/singapore-1965.5b1c2d84.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.11f88daa.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.f16a89bc.chunk.js",
+    "static/js/2.ec27dae8.chunk.js",
     "static/css/main.aad66892.chunk.css",
-    "static/js/main.b9aade2a.chunk.js"
+    "static/js/main.4c5891b5.chunk.js"
   ]
 }

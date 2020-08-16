@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ff579830a479cbdf7558ff89effcdca",
+    "revision": "6489c7d557b080cafaca3b5dae6de7f6",
     "url": "/HistoryY2WA3/index.html"
   },
   {
-    "revision": "3938f9b4671197cb3a9e",
+    "revision": "3754c743faed407f3104",
     "url": "/HistoryY2WA3/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "339ba7ebfb895aff6bf2",
+    "revision": "d2a35641498fea35aaaf",
     "url": "/HistoryY2WA3/static/css/main.aad66892.chunk.css"
   },
   {
-    "revision": "3938f9b4671197cb3a9e",
-    "url": "/HistoryY2WA3/static/js/2.f16a89bc.chunk.js"
+    "revision": "3754c743faed407f3104",
+    "url": "/HistoryY2WA3/static/js/2.ec27dae8.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/HistoryY2WA3/static/js/2.f16a89bc.chunk.js.LICENSE.txt"
+    "url": "/HistoryY2WA3/static/js/2.ec27dae8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "339ba7ebfb895aff6bf2",
-    "url": "/HistoryY2WA3/static/js/main.b9aade2a.chunk.js"
+    "revision": "d2a35641498fea35aaaf",
+    "url": "/HistoryY2WA3/static/js/main.4c5891b5.chunk.js"
   },
   {
     "revision": "d9fc3765e8d32cdf245b",
@@ -88,6 +88,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HistoryY2WA3/static/media/SG-img-now.8f363b68.png"
   },
   {
+    "revision": "d3dccbe28b5a6072918c7e9cfd52190b",
+    "url": "/HistoryY2WA3/static/media/developed-SG-2.d3dccbe2.jpeg"
+  },
+  {
+    "revision": "8b97fa603345be758b2a82d9b1881d1b",
+    "url": "/HistoryY2WA3/static/media/developed-SG.8b97fa60.jpeg"
+  },
+  {
     "revision": "b02e40ef87064073d143e30cf69287d4",
     "url": "/HistoryY2WA3/static/media/dhs-logo.b02e40ef.png"
   },
@@ -114,5 +122,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0026a0624e430e576916a86153569bce",
     "url": "/HistoryY2WA3/static/media/roh.0026a062.png"
+  },
+  {
+    "revision": "5b1c2d841ac68da2179a3885bd7b420f",
+    "url": "/HistoryY2WA3/static/media/singapore-1965.5b1c2d84.jpg"
   }
 ]);
