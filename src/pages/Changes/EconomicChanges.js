@@ -83,8 +83,8 @@ export default function Changes_Economic() {
               Singapore economy in the industrialization phase of the economy
             </p>
           </div>
-          <div className="col-lg-4">
-            <img src={EDB} className="img-fluid" alt="EDB logo"/>
+          <div className="col-lg-4 row">
+            <img src={EDB} className="img-fluid my-auto col-12" alt="EDB logo"/>
           </div>
         </div>
 
@@ -120,8 +120,8 @@ export default function Changes_Economic() {
               and with it, comes easy profits.
             </p>
           </div>
-          <div className="col-lg-4">
-          <img src={JTC} className="img-fluid" alt="JTC logo"/>
+          <div className="col-lg-4 row">
+          <img src={JTC} className="img-fluid my-auto col-12" alt="JTC logo"/>
           </div>
         </div>
 
@@ -150,8 +150,8 @@ export default function Changes_Economic() {
               Singapore’s economy.
             </p>
           </div>
-          <div className="col-lg-4">
-          <img src={MAS} className="img-fluid" alt="MAS logo"/>
+          <div className="col-lg-4 row">
+          <img src={MAS} className="img-fluid my-auto col-12" alt="MAS logo"/>
           </div>
         </div>
 
@@ -209,7 +209,7 @@ export default function Changes_Economic() {
               new jobs that are related to technology.
             </p>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 row">
           <img src={NCB} className="fit-full-img" alt="NCB logo"/>
           </div>
         </div>

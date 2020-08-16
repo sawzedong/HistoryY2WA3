@@ -46,8 +46,8 @@ export default function Changes_Housing() {
               public housing more appealing to lower income people.
             </p>
           </div>
-          <div className="col-lg-4">
-            <img src={CPFImg} className="img-fluid" alt="CPF Logo" />
+          <div className="col-lg-4 row">
+            <img src={CPFImg} className="img-fluid col-12 my-auto" alt="CPF Logo" />
           </div>
         </div>
 
@@ -73,9 +73,9 @@ export default function Changes_Housing() {
               people in the society ie. singles.
             </p>
           </div>
-          <div className="col-lg-4 text-center d-flex flex-lg-column flex-row">
-            <i className="fas fa-user-slash fa-5x py-4"></i>
-            <i className="fas fa-house-damage fa-5x py-4"></i>
+          <div className="col-lg-4 row text-center d-flex flex-lg-column flex-row">
+            <i className="fas fa-user-slash fa-5x py-4 my-auto"></i>
+            <i className="fas fa-house-damage fa-5x py-4 my-auto"></i>
           </div>
         </div>
 
@@ -100,9 +100,9 @@ export default function Changes_Housing() {
               helping to strengthen the sense of belonging in the people.
             </p>
           </div>
-          <div className="col-lg-4 text-center d-flex flex-lg-column flex-row">
-            <i className="fas fa-user fa-5x py-4"></i>
-            <i className="fas fa-home fa-5x py-4"></i>
+          <div className="col-lg-4 row text-center d-flex flex-lg-column flex-row">
+            <i className="fas fa-user fa-5x py-4 my-auto"></i>
+            <i className="fas fa-home fa-5x py-4 my-auto"></i>
           </div>
         </div>
 
@@ -126,10 +126,10 @@ export default function Changes_Housing() {
               harmonious multi-racial country.
             </p>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 row">
             <img
               src={EIP}
-              className="img-fluid"
+              className="img-fluid col-12 my-auto"
               alt="Children of 4 races standing together"
             />
           </div>
@@ -158,10 +158,10 @@ export default function Changes_Housing() {
               helping to strengthen the sense of belonging in the people.
             </p>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 row">
             <img
               src={ROH}
-              className="img-fluid fit-full-img"
+              className="img-fluid col-12 my-auto fit-full-img"
               alt="Remaking Our Homeland Logo"
             />
           </div>
@@ -173,7 +173,7 @@ export default function Changes_Housing() {
             <p className="text-paragraph text-center">
               <img
                 src={Figure1_1}
-                className="img-fluid"
+                className="img-fluid col-12 my-auto"
                 alt="Singapore's GDP Graph"
               />
               Figure 1.1
@@ -222,7 +222,7 @@ export default function Changes_Housing() {
               giving them a sense of belonging to Singapore.
             </p>
           </div>
-          <div className="col-lg-4 text-center">
+          <div className="col-lg-4 row text-center">
             <i className="fas fa-house-user fa-7x py-4"></i>
           </div>
         </div>
