@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c219f06933214e9e03af4a6dcd994b95",
+    "revision": "25932e55e04e7a33589f163aef258289",
     "url": "/HistoryY2WA3/index.html"
   },
   {
-    "revision": "3d3de9717ad4771ca229",
+    "revision": "92cd38e5e564ce34ecde",
     "url": "/HistoryY2WA3/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "43e0dad2f3e95d76d767",
-    "url": "/HistoryY2WA3/static/css/main.8b411998.chunk.css"
+    "revision": "9f48a979a2f1b01dbeda",
+    "url": "/HistoryY2WA3/static/css/main.aad66892.chunk.css"
   },
   {
-    "revision": "3d3de9717ad4771ca229",
-    "url": "/HistoryY2WA3/static/js/2.2cccb822.chunk.js"
+    "revision": "92cd38e5e564ce34ecde",
+    "url": "/HistoryY2WA3/static/js/2.e5534eaf.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/HistoryY2WA3/static/js/2.2cccb822.chunk.js.LICENSE.txt"
+    "url": "/HistoryY2WA3/static/js/2.e5534eaf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43e0dad2f3e95d76d767",
-    "url": "/HistoryY2WA3/static/js/main.88f672c9.chunk.js"
+    "revision": "9f48a979a2f1b01dbeda",
+    "url": "/HistoryY2WA3/static/js/main.bf21415f.chunk.js"
   },
   {
     "revision": "d9fc3765e8d32cdf245b",
@@ -32,8 +32,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HistoryY2WA3/static/media/CPF.54041137.png"
   },
   {
-    "revision": "9b3baf097091fa8958c3d22689caefb5",
-    "url": "/HistoryY2WA3/static/media/Figure-1-1.9b3baf09.png"
+    "revision": "bffe404e6d733c5b2aeae9f12c8e7ab3",
+    "url": "/HistoryY2WA3/static/media/Figure-1-1.bffe404e.png"
+  },
+  {
+    "revision": "4e1b10dba70837e43cc1c4538459ef47",
+    "url": "/HistoryY2WA3/static/media/Figure-2-1.4e1b10db.jpg"
+  },
+  {
+    "revision": "af1c7f8d2c93393424e47630ac17c638",
+    "url": "/HistoryY2WA3/static/media/Figure-2-2.af1c7f8d.jpg"
+  },
+  {
+    "revision": "a229d478bbe5844852ab2a20a137a5f7",
+    "url": "/HistoryY2WA3/static/media/Figure-2-3.a229d478.png"
+  },
+  {
+    "revision": "4ab1923d241f3432964f01d97464bf9f",
+    "url": "/HistoryY2WA3/static/media/Figure-2-4.4ab1923d.png"
+  },
+  {
+    "revision": "9ce9f0954e486bd8b240a027816afb71",
+    "url": "/HistoryY2WA3/static/media/Figure-2-5.9ce9f095.png"
   },
   {
     "revision": "7bcb4d7bdddcf32ca64ed410542be542",
