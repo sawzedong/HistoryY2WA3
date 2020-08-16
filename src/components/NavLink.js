@@ -7,6 +7,7 @@ import {
   Link,
   useRouteMatch,
 } from "react-router-dom";
+import ScrollLink from "./ScrollLink"
 
 export default function NavLink({ label, to }) {
   let match = useRouteMatch({
@@ -15,9 +16,9 @@ export default function NavLink({ label, to }) {
   });
   return (
     <li className={match ? "active nav-item px-2 py-2" : "nav-item px-2 py-2"}>
-      <Link to={to} className="nav-link">
+      <ScrollLink to={to} className="nav-link">
         {label}
-      </Link>
+      </ScrollLink>
     </li>
   );
 }

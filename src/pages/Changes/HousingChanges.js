@@ -22,7 +22,7 @@ export default function Changes_Housing() {
           <strong>Provide More Housing</strong> and eventually changed to{" "}
           <strong>Providing Better Quality Housing</strong>.
         </p>
-
+    
         <h2 className="py-3">Change in Focus of Policies</h2>
 
         <h3 className="py-2">Phase 1: Providing More Housing</h3>

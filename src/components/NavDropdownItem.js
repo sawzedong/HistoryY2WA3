@@ -7,6 +7,7 @@ import {
   Link,
   useRouteMatch,
 } from "react-router-dom";
+import ScrollLink from "./ScrollLink"
 
 export default function NavDropdownItem({ label, to }) {
   let match = useRouteMatch({
@@ -15,12 +16,12 @@ export default function NavDropdownItem({ label, to }) {
   });
   return (
     <>
-      <Link
+      <ScrollLink
         className={match ? "dropdown-item active" : "dropdown-item "}
         to={to}
       >
         {label}
-      </Link>
+      </ScrollLink>
     </>
   );
 }

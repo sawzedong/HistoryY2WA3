@@ -7,31 +7,9 @@ import {
   Link,
   useRouteMatch,
 } from "react-router-dom";
+import ScrollLink from "./ScrollLink.js"
 import "../styles/Footer.css"
 
-/*
-class ScrollerDown extends React.Component {
-  constructor(props) {
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-  }
-  handleClick() {
-    var elmnt = document.getElementById(this.props.ID);
-    elmnt.scrollIntoView();
-  }
-  render() {
-    return (
-      <div
-        id={this.props.ID}
-        onClick={this.handleClick}
-        className="scroll-down bg-on-dark-positive-trans"
-      >
-        <span className="fas fa-chevron-down" />
-      </div>
-    );
-  }
-}
-*/
 class FooterLink extends React.Component {
   constructor(props) {
     super(props);
@@ -55,13 +33,13 @@ export default function PageFooter(props) {
         <div class="col-md-6 left pagechange row p-0">
             <div class="col-12 mx-auto my-auto">
             <span class="h4">{previousArticleText}</span>
-            <FooterLink to={props.prevLink} className="footerLink h2">{props.prevTitle}</FooterLink>
+            <ScrollLink to={props.prevLink} className="footerLink h2">{props.prevTitle}</ScrollLink>
             </div>
         </div>
         <div class="col-md-6 right pagechange row p-0">
         <div class="col-12 mx-auto my-auto">
             <span className="h4">{nextArticleText}</span>
-            <FooterLink to={props.nextLink} className="footerLink h2">{props.nextTitle}</FooterLink>
+            <ScrollLink to={props.nextLink} className="footerLink h2">{props.nextTitle}</ScrollLink>
             </div>
         </div>
     </footer>

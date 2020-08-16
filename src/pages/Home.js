@@ -7,8 +7,6 @@ import PageTemplate from "../components/PageTemplate";
 // import TestImg from "../img/test-img.svg";
 import PoliciesThumbnail from "../img/homepage-img.svg";
 
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-
 import SectionDisplay from "../components/Home/SectionDisplay";
 import ScrollerDown from "../components/ScrollerDown";
 import PageFooter from "../components/Footer";

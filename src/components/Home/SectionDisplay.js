@@ -1,6 +1,6 @@
 /*eslint no-unused-vars: 0*/
 import React from "react";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import ScrollLink from "../ScrollLink"
 function SectionDisplay(props) {
   var sizeLarge = props.large;
   var sizing = props.size + " col-11 my-2 my-lg-0 py-3 py-lg-0 row glassCard text-center p-0";
@@ -15,9 +15,9 @@ function SectionDisplay(props) {
           <div className="col-12 my-auto mx-auto">
             <i className={fullIconName} />
 
-            <Link to={props.linkTo} className={showTheLink}>
+            <ScrollLink to={props.linkTo} className={showTheLink}>
               <h2 className="h4">{props.header}</h2>
-            </Link>
+            </ScrollLink>
             <h2 className={showTheNonLink}>{props.header}</h2>
           </div>
         </div>
@@ -36,9 +36,9 @@ function SectionDisplay(props) {
           <div className="col-12 my-auto mx-auto">
             <i className={fullIconName} />
 
-            <Link to={props.linkTo} className={showTheLink}>
+            <ScrollLink to={props.linkTo} className={showTheLink}>
               <h2 className="h4">{props.header}</h2>
-            </Link>
+            </ScrollLink>
             <h2 className={showTheNonLink}>{props.header}</h2>
           </div>
         </div>

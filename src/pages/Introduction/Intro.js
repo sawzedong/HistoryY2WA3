@@ -1,6 +1,6 @@
 /*eslint no-unused-vars: 0*/
 import React from "react";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import ScrollLink from "../../components/ScrollLink"
 
 import PageTemplate from "../../components/PageTemplate";
 import PageFooter from "../../components/Footer";
@@ -47,7 +47,7 @@ export default function Introduction_Intro() {
               to influence the people to act in a certain way, or lead /
               kickstart a change.
 
-              See all policies <Link to="/introduction/timeline">here</Link>.
+              See all policies <ScrollLink to="/introduction/timeline">here</ScrollLink>.
             </p>
           </div>
           
