@@ -2,6 +2,8 @@ import React from "react";
 import PageTemplate from "../../components/PageTemplate";
 import PageFooter from "../../components/Footer";
 
+import I1965Singapore from "../../img/singapore-1965.jpg"
+
 export default function Phase1() {
   return (
     <PageTemplate padding>
@@ -46,7 +48,9 @@ export default function Phase1() {
               lead to a more stable society.
             </p>
           </div>
-          <div className="col-lg-4"></div>
+          <div className="col-lg-4 row">
+              <img src={I1965Singapore} alt="Singapore Landscape 1965" className="img-fluid col-12 my-auto"/>
+          </div>
         </div>
       </div>
       <PageFooter
