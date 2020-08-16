@@ -30,6 +30,7 @@ AOS.init();
 export default function Home() {
   return (
     <PageTemplate padding>
+      
       <section
         className="min-vh-100 py-7 vw-100 row"
         style={backgroundImgStyle}

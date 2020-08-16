@@ -110,6 +110,10 @@ html {
 .PageTemplateClass {
   background-color: #f2f7ff;
 }
+
+.responsive-poster {
+  width: 35%;
+}
 @media screen and (max-width: 768px) {
 
   .forceTopMd {
@@ -118,12 +122,15 @@ html {
   .forceBottomMd {
     margin-bottom: 0px !important;
   }
+  .responsive-poster {
+    width: 55% !important;
+  }
 }
-
 @media screen and (max-width: 992px) {
   .custom-xlg-dnone {
     display: none;
   }
+  
 
 }
 table, tr, td {

@@ -5,16 +5,15 @@ import PageFooter from "../../components/Footer";
 import FootnoteCitation from "../../components/Citation/FootnoteCitation";
 import InTextCitation from "../../components/Citation/InTextCitation.js";
 
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-
 import Figure1_1 from "../../img/Figure-1-1.png";
 import CPFImg from "../../img/CPF.png";
-import EIP from "../../img/ethnic-integration-policy.png"
-import ROH from "../../img/roh.png"
+import EIP from "../../img/ethnic-integration-policy.png";
+import ROH from "../../img/roh.png";
 
 export default function Changes_Housing() {
   return (
     <PageTemplate padding>
+      
       <div className="p-2">
         <h1>Housing Change</h1>
         <p className="text-paragraph">
@@ -128,7 +127,11 @@ export default function Changes_Housing() {
             </p>
           </div>
           <div className="col-lg-4">
-            <img src={EIP} className="img-fluid" alt="Children of 4 races standing together" />
+            <img
+              src={EIP}
+              className="img-fluid"
+              alt="Children of 4 races standing together"
+            />
           </div>
         </div>
 
@@ -156,7 +159,11 @@ export default function Changes_Housing() {
             </p>
           </div>
           <div className="col-lg-4">
-            <img src={ROH} className="img-fluid fit-full-img" alt="Remaking Our Homeland Logo" />
+            <img
+              src={ROH}
+              className="img-fluid fit-full-img"
+              alt="Remaking Our Homeland Logo"
+            />
           </div>
         </div>
 

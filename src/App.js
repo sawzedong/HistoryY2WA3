@@ -18,10 +18,8 @@ import IntroductionGatheringData from "./pages/Introduction/GatheringData"
 
 import ChangesOverview from "./pages/Changes/Overview"
 import ChangesHousing from "./pages/Changes/HousingChanges"
-import ChangesEnvironment from "./pages/Changes/EnvironmentChanges"
 import ChangesPopulation from "./pages/Changes/PopulationChanges"
-import ChangesMonetary from "./pages/Changes/MonetaryChanges"
-import ChangesSocial from "./pages/Changes/SocialChanges"
+import ChangesEconomic from "./pages/Changes/EconomicChanges"
 
 import ConclusionOverview from "./pages/Conclusion/Overview"
 
@@ -96,20 +94,12 @@ function App() {
                     label="Housing"
                   />
                   <NavDropdownItem
-                    to="/changes/environment"
-                    label="Environment"
-                  />
-                  <NavDropdownItem
                     to="/changes/population"
                     label="Population"
                   />
                   <NavDropdownItem
-                    to="/changes/monetary"
-                    label="Monetary"
-                  />
-                  <NavDropdownItem
-                    to="/changes/social"
-                    label="Social"
+                    to="/changes/economic"
+                    label="Economic"
                   />
                 </div>
               </NavDropdown>
@@ -177,29 +167,17 @@ function App() {
             </Helmet>
             <ChangesHousing />
           </Route>
-          <Route exact path="/changes/environment">
-            <Helmet>
-              <title>Changes: Environment - History Project</title>
-            </Helmet>
-            <ChangesEnvironment />
-          </Route>
           <Route exact path="/changes/population">
             <Helmet>
               <title>Changes: Population - History Project</title>
             </Helmet>
             <ChangesPopulation />
           </Route>
-          <Route exact path="/changes/monetary">
+          <Route exact path="/changes/economic">
             <Helmet>
-              <title>Changes: Monetary - History Project</title>
+              <title>Changes: Economic - History Project</title>
             </Helmet>
-            <ChangesMonetary />
-          </Route>
-          <Route exact path="/changes/social">
-            <Helmet>
-              <title>Changes: Social - History Project</title>
-            </Helmet>
-            <ChangesSocial />
+            <ChangesEconomic />
           </Route>
           <Route exact path="/conclusion/">
             <Helmet>

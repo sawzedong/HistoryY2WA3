@@ -11,6 +11,7 @@ import SGImgNow from "../../img/SG-img-now.png"
 export default function Introduction_Intro() {
   return (
     <PageTemplate padding>
+      
       <div className="row vw-100">
         <div className="min-vh-100 col-md-10 col-lg-8 p-2">
           <h1>Introduction</h1>

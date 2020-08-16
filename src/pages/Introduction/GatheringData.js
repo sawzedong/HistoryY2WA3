@@ -10,6 +10,7 @@ import IntervieweeMrKong from "../../img/interviewee-mr-kong.jpeg";
 export default function Introduction_GatheringData() {
   return (
     <PageTemplate padding>
+      
       <div className="min-vh-100 vw-100 p-2">
         <h1>Introduction</h1>
         <div className="info-category py-3 row w-100">

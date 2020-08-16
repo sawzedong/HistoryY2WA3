@@ -7,6 +7,7 @@ import PageFooter from "../../components/Footer";
 export default function Changes_Overview() {
   return (
     <PageTemplate padding>
+      
       <div className="min-vh-100 gradient-background-1">
         <section className="min-vh-40 vw-100 row">
           <div className="text-center col-md-12 my-auto mx-auto">
