@@ -74,7 +74,7 @@ export default function Changes_Population() {
         </div>
 
         <h3 className="py-2">
-          <u>Phase 2: Increasing Population</u>
+          <u>Phase 2: Increasing Population Growth</u>
         </h3>
 
         <div className="info-category py-3 row w-100">
