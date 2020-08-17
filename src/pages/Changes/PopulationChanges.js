@@ -25,7 +25,7 @@ export default function Changes_Population() {
 
         <h2 className="py-3">Change in Focus of Policies</h2>
 
-        <h3 className="py-2">Phase 1: Decreasing Population</h3>
+        <h3 className="py-2">Phase 1: Decreasing Population Growth</h3>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
@@ -102,7 +102,7 @@ export default function Changes_Population() {
             </p>
             <p className="text-paragraph">
               "Children. Life Would Be Empty Without Them" policy as well as
-              giving Incentives for having babies in Singapore -- Baby Bonus
+              giving Incentives for having babies in Singapore—Baby Bonus
               Scheme. The government has introduced these measures to show
               Singaporean’s the importance of having children and is encouraging
               Singaporeans to have not only children but to have more and more.

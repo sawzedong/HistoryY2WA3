@@ -13,7 +13,6 @@ import ROH from "../../img/roh.png";
 export default function Changes_Housing() {
   return (
     <PageTemplate padding>
-      
       <div className="p-2">
         <h1>Housing Change</h1>
         <p className="text-paragraph">
@@ -22,7 +21,7 @@ export default function Changes_Housing() {
           <strong>Provide More Housing</strong> and eventually changed to{" "}
           <strong>Providing Better Quality Housing</strong>.
         </p>
-    
+
         <h2 className="py-3">Change in Focus of Policies</h2>
 
         <h3 className="py-2">Phase 1: Providing More Housing</h3>
@@ -47,7 +46,11 @@ export default function Changes_Housing() {
             </p>
           </div>
           <div className="col-lg-4 row">
-            <img src={CPFImg} className="img-fluid col-12 my-auto" alt="CPF Logo" />
+            <img
+              src={CPFImg}
+              className="img-fluid col-12 my-auto"
+              alt="CPF Logo"
+            />
           </div>
         </div>
 
@@ -92,12 +95,12 @@ export default function Changes_Housing() {
               -Mr Emmanuel
             </p>
             <p className="text-paragraph">
-              Our Homeland policy was implemented to better the lives of people
-              living in older HDB estates. The policy included the creation of
-              upgraded facilities and improvements to connectivity, improving
-              the quality of living in older neighbourhoods as they encourage
-              residents living in different areas to mingle and interact,
-              helping to strengthen the sense of belonging in the people.
+              In the interview with Mr. Emmanuel, he pointed out that the
+              single’s purchase scheme has already been put in place in the
+              2000s. The single purchase scheme promotes a more inclusive
+              society. The government has taken a different approach to housing
+              policies that now focused on catering to the needs of different
+              people in the society, in this case the singles in the society.
             </p>
           </div>
           <div className="col-lg-4 row text-center d-flex flex-lg-column flex-row">
