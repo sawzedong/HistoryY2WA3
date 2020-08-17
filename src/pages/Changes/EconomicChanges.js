@@ -467,7 +467,7 @@ export default function Changes_Economic() {
             https://eresources.nlb.gov.sg/history/events/9f9489cf-5432-4797-bf66-fd1b3bab7a2b
           </a>
         </FootnoteCitation>
-        <FootnoteCitation ID={10}>
+        <FootnoteCitation ID={11}>
           GDP growth (annual %) - Singapore. (n.d.). Retrieved August 16, 2020,
           from{" "}
           <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=SG">
