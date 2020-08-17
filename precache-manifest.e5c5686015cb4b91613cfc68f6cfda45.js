@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9c874d051c1d2ff896a50daef801dc4",
+    "revision": "7568efb094a1cd93fe3f59a5cbaa05a6",
     "url": "/HistoryY2WA3/index.html"
   },
   {
-    "revision": "3754c743faed407f3104",
+    "revision": "481ffd0ab8c42f2b93fe",
     "url": "/HistoryY2WA3/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "f7bffdaa8bfd336fdbe5",
-    "url": "/HistoryY2WA3/static/css/main.aad66892.chunk.css"
+    "revision": "9ac2ac232fcf4cad518d",
+    "url": "/HistoryY2WA3/static/css/main.6c63d55f.chunk.css"
   },
   {
-    "revision": "3754c743faed407f3104",
-    "url": "/HistoryY2WA3/static/js/2.ec27dae8.chunk.js"
+    "revision": "481ffd0ab8c42f2b93fe",
+    "url": "/HistoryY2WA3/static/js/2.cf623f82.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/HistoryY2WA3/static/js/2.ec27dae8.chunk.js.LICENSE.txt"
+    "url": "/HistoryY2WA3/static/js/2.cf623f82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7bffdaa8bfd336fdbe5",
-    "url": "/HistoryY2WA3/static/js/main.b83598d0.chunk.js"
+    "revision": "9ac2ac232fcf4cad518d",
+    "url": "/HistoryY2WA3/static/js/main.2c92c834.chunk.js"
   },
   {
     "revision": "d9fc3765e8d32cdf245b",
     "url": "/HistoryY2WA3/static/js/runtime-main.11f88daa.js"
-  },
-  {
-    "revision": "54041137ab4779fa9258c9a0cf969753",
-    "url": "/HistoryY2WA3/static/media/CPF.54041137.png"
   },
   {
     "revision": "bffe404e6d733c5b2aeae9f12c8e7ab3",
@@ -68,24 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HistoryY2WA3/static/media/Figure-3-3.e5626e4f.png"
   },
   {
-    "revision": "e282c96414ffdd63c5681b5aaf8aaed1",
-    "url": "/HistoryY2WA3/static/media/JTC.e282c964.png"
-  },
-  {
-    "revision": "dd8b71eb5c68649ae0f282404074a570",
-    "url": "/HistoryY2WA3/static/media/MAS.dd8b71eb.jpeg"
-  },
-  {
-    "revision": "89d5707ba7e209c082afeb838672edd2",
-    "url": "/HistoryY2WA3/static/media/NCB.89d5707b.png"
-  },
-  {
     "revision": "7bcb4d7bdddcf32ca64ed410542be542",
     "url": "/HistoryY2WA3/static/media/SG-img-1965.7bcb4d7b.png"
   },
   {
     "revision": "8f363b68c5a913da350a95a7654a1168",
     "url": "/HistoryY2WA3/static/media/SG-img-now.8f363b68.png"
+  },
+  {
+    "revision": "4bea220ee8b19f49971f6be8735862a0",
+    "url": "/HistoryY2WA3/static/media/central-provident-fund.4bea220e.png"
   },
   {
     "revision": "d3dccbe28b5a6072918c7e9cfd52190b",
@@ -98,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b02e40ef87064073d143e30cf69287d4",
     "url": "/HistoryY2WA3/static/media/dhs-logo.b02e40ef.png"
+  },
+  {
+    "revision": "0ca2af432cbe5ab551b2bcd7ac57e579",
+    "url": "/HistoryY2WA3/static/media/economic-development-board.0ca2af43.png"
   },
   {
     "revision": "f813a29b03f7a38fce113473100463f3",
@@ -120,11 +112,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HistoryY2WA3/static/media/interviewee-mr-kong.511e804c.jpeg"
   },
   {
-    "revision": "0026a0624e430e576916a86153569bce",
-    "url": "/HistoryY2WA3/static/media/roh.0026a062.png"
+    "revision": "ee58a37bcb127bad0a799189a20a3524",
+    "url": "/HistoryY2WA3/static/media/jurong-town-corporation.ee58a37b.png"
+  },
+  {
+    "revision": "86b7082f08d585b3122204126a7b34f4",
+    "url": "/HistoryY2WA3/static/media/monetary-authority-of-singapore.86b7082f.png"
+  },
+  {
+    "revision": "015c589742b48450a2e375f708c22e5e",
+    "url": "/HistoryY2WA3/static/media/national-computer-board.015c5897.png"
+  },
+  {
+    "revision": "c758cbf507cccb13331bd4546c3d602c",
+    "url": "/HistoryY2WA3/static/media/remaking-our-heartland.c758cbf5.png"
   },
   {
     "revision": "5b1c2d841ac68da2179a3885bd7b420f",
     "url": "/HistoryY2WA3/static/media/singapore-1965.5b1c2d84.jpg"
+  },
+  {
+    "revision": "8d0b249105aa8394f8b53b5d4217d05a",
+    "url": "/HistoryY2WA3/static/media/singapore-johor-riau.8d0b2491.png"
   }
 ]);
