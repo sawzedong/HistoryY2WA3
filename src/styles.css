@@ -193,6 +193,10 @@ body {
 .footnoteCitation {
   font-size: 12px;
 }
-.fit-full-img {
-  width: 100%;
+.sidebar-img {
+  width: 80%;
+  height: auto;
+}
+.border-black {
+  border: 1.5px solid black;
 }

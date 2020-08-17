@@ -5,10 +5,10 @@ import PageFooter from "../../components/Footer";
 import FootnoteCitation from "../../components/Citation/FootnoteCitation";
 import InTextCitation from "../../components/Citation/InTextCitation.js";
 
-import Figure1_1 from "../../img/Figure-1-1.png";
-import CPFImg from "../../img/CPF.png";
-import EIP from "../../img/ethnic-integration-policy.png";
-import ROH from "../../img/roh.png";
+import Figure1_1 from "../../img/housing-changes/Figure-1-1.png";
+import CPFImg from "../../img/housing-changes/central-provident-fund.png";
+import EIPImg from "../../img/housing-changes/ethnic-integration-policy.png";
+import ROHImg from "../../img/housing-changes/remaking-our-heartland.png";
 
 export default function Changes_Housing() {
   return (
@@ -24,19 +24,25 @@ export default function Changes_Housing() {
 
         <h2 className="py-3">Change in Focus of Policies</h2>
 
-        <h3 className="py-2">Phase 1: Providing More Housing</h3>
+        <h3 className="py-2">
+          <u>Phase 1: Providing More Housing</u>
+        </h3>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>CPF</h4>
-            <p className="text-paragraph">
-              "to help more become homeowners, the government allowed the use of
-              Central Provident Fund (CPF) savings for the downpayment and to
-              service the monthly mortgage loan instalments...made home
-              ownership highly affordable and attractive."
-              <InTextCitation ID={1} /> <br />
-              -Housing Development Board
-            </p>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
+                "to help more become homeowners, the government allowed the use
+                of Central Provident Fund (CPF) savings for the downpayment and
+                to service the monthly mortgage loan instalments...made home
+                ownership highly affordable and attractive."
+                <InTextCitation ID={1} />
+              </p>
+              <footer className="blockquote-footer">
+                Housing Development Board
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               The Central Provident Fund (CPF) scheme helps to relieve financial
               burden as part of their income that is contributed to CPF, and can
@@ -45,10 +51,10 @@ export default function Changes_Housing() {
               public housing more appealing to lower income people.
             </p>
           </div>
-          <div className="col-lg-4 row">
+          <div className="col-lg-4 row text-center">
             <img
               src={CPFImg}
-              className="img-fluid col-12 my-auto"
+              className="sidebar-img my-auto mx-auto"
               alt="CPF Logo"
             />
           </div>
@@ -57,15 +63,17 @@ export default function Changes_Housing() {
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>Singles Purchasing Government Housing (Before)</h4>
-            <p className="text-paragraph">
-              "a housing policy is that if you are single, you cannot purchase
-              any government housing. You have to go for private housing and
-              sometimes private housing is expensive...You have to stay with
-              your parents until you are married in order to get your own
-              housing."
-              <InTextCitation ID={2} /> <br />
-              -Mr Cheong
-            </p>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
+                "a housing policy is that if you are single, you cannot purchase
+                any government housing. You have to go for private housing and
+                sometimes private housing is expensive...You have to stay with
+                your parents until you are married in order to get your own
+                housing."
+                <InTextCitation ID={2} />
+              </p>
+              <footer className="blockquote-footer">Mr Cheong</footer>
+            </blockquote>
             <p className="text-paragraph">
               In the 1960s to 1980s, the government did not allow singles to buy
               a HDB flat. With a minimum family size in HDBs, it ensures
@@ -77,23 +85,27 @@ export default function Changes_Housing() {
             </p>
           </div>
           <div className="col-lg-4 row text-center d-flex flex-lg-column flex-row">
-            <i className="fas fa-user-slash fa-5x py-4 my-auto"></i>
-            <i className="fas fa-house-damage fa-5x py-4 my-auto"></i>
+            <i className="fas fa-user-slash fa-5x py-4 my-auto mx-auto"></i>
+            <i className="fas fa-house-damage fa-5x py-4 my-auto mx-auto"></i>
           </div>
         </div>
 
-        <h3 className="py-2">Phase 2: Providing Better Quality Housing</h3>
+        <h3 className="py-2">
+          <u>Phase 2: Providing Better Quality Housing</u>
+        </h3>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>Singles Purchase Scheme (After)</h4>
-            <p className="text-paragraph">
-              "I learnt about singapore’s public housing policies with regarding
-              Single’s purchase scheme, about how singles can purchase flats,
-              whereas previously they couldn’t,.."
-              <InTextCitation ID={3} /> <br />
-              -Mr Emmanuel
-            </p>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
+                "I learnt about singapore’s public housing policies with
+                regarding Single’s purchase scheme, about how singles can
+                purchase flats, whereas previously they couldn’t,.."
+                <InTextCitation ID={3} />
+              </p>
+              <footer className="blockquote-footer">Mr Emmanuel</footer>
+            </blockquote>
             <p className="text-paragraph">
               In the interview with Mr. Emmanuel, he pointed out that the
               single’s purchase scheme has already been put in place in the
@@ -104,23 +116,26 @@ export default function Changes_Housing() {
             </p>
           </div>
           <div className="col-lg-4 row text-center d-flex flex-lg-column flex-row">
-            <i className="fas fa-user fa-5x py-4 my-auto"></i>
-            <i className="fas fa-home fa-5x py-4 my-auto"></i>
+            <i className="fas fa-user fa-5x py-4 my-auto mx-auto"></i>
+            <i className="fas fa-home fa-5x py-4 my-auto mx-auto"></i>
           </div>
         </div>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>Ethnic Integration Policy</h4>
-            <p className="text-paragraph">
-              "...to ensure a balanced mix of ethnic groups living in HDB
-              estates, so as to promote racial harmony and strengthen social
-              cohesion. It applies to the sale and purchase of all new and
-              resale HDB flats, and is implemented for all ethnic groups."
-              <InTextCitation ID={4} />
-              <br />
-              -Housing Development Board
-            </p>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
+                "...to ensure a balanced mix of ethnic groups living in HDB
+                estates, so as to promote racial harmony and strengthen social
+                cohesion. It applies to the sale and purchase of all new and
+                resale HDB flats, and is implemented for all ethnic groups."
+                <InTextCitation ID={4} />
+              </p>
+              <footer className="blockquote-footer">
+                Housing Development Board
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               The implementation of the Ethinic Integration Policy in 1989 helps
               to solve the problem of social segregation where racial groups
@@ -131,8 +146,8 @@ export default function Changes_Housing() {
           </div>
           <div className="col-lg-4 row">
             <img
-              src={EIP}
-              className="img-fluid col-12 my-auto"
+              src={EIPImg}
+              className="sidebar-img my-auto mx-auto"
               alt="Children of 4 races standing together"
             />
           </div>
@@ -140,18 +155,21 @@ export default function Changes_Housing() {
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
-            <h4>Remaking our Homeland</h4>
-            <p className="text-paragraph">
-              "...Remaking Our Heartland (ROH) initiative was launched as a
-              comprehensive rejuvenation blueprint to renew and further develop
-              existing HDB towns and estates...exciting plans have been drawn up
-              to renew HDB estates, with blueprints tailored to meet the
-              changing needs of our community and capitalise on the distinct
-              characteristics of each area."
-              <InTextCitation ID={5} />
-              <br />
-              -Housing Development Board
-            </p>
+            <h4>Remaking our Heartland</h4>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
+                "...Remaking Our Heartland (ROH) initiative was launched as a
+                comprehensive rejuvenation blueprint to renew and further
+                develop existing HDB towns and estates...exciting plans have
+                been drawn up to renew HDB estates, with blueprints tailored to
+                meet the changing needs of our community and capitalise on the
+                distinct characteristics of each area."
+                <InTextCitation ID={5} />
+              </p>
+              <footer className="blockquote-footer">
+                Housing Development Board
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               Our Homeland policy was implemented to better the lives of people
               living in older HDB estates. The policy included the creation of
@@ -163,8 +181,8 @@ export default function Changes_Housing() {
           </div>
           <div className="col-lg-4 row">
             <img
-              src={ROH}
-              className="img-fluid col-12 my-auto fit-full-img"
+              src={ROHImg}
+              className="sidebar-img my-auto mx-auto"
               alt="Remaking Our Homeland Logo"
             />
           </div>
@@ -202,17 +220,20 @@ export default function Changes_Housing() {
         <h2 className="py-3">Impacts of Change</h2>
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
-            <p className="text-paragraph">
-              "By 1965...we had built 54,000 flats. Singapore's public housing
-              has housed an entire nation – today, more than 1 million flats
-              have been completed in 23 towns and 3 estates across the island.
-              HDB flats are home to over 80% of Singapore's resident population,
-              with about 90% of these resident households proudly owning their
-              home."
-              <InTextCitation ID={7} />
-              <br />
-              -Housing Development Board
-            </p>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
+                "By 1965...we had built 54,000 flats. Singapore's public housing
+                has housed an entire nation – today, more than 1 million flats
+                have been completed in 23 towns and 3 estates across the island.
+                HDB flats are home to over 80% of Singapore's resident
+                population, with about 90% of these resident households proudly
+                owning their home."
+                <InTextCitation ID={7} />
+              </p>
+              <footer className="blockquote-footer">
+                Housing Development Board
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               From the source, it is stated that 9 out of 10 Singaporeans own an
               HDB and the number of flats has increased from 54000 approximately
@@ -226,7 +247,7 @@ export default function Changes_Housing() {
             </p>
           </div>
           <div className="col-lg-4 row text-center">
-            <i className="fas fa-house-user fa-7x py-4"></i>
+            <i className="fas fa-house-user fa-7x py-4 mx-auto my-auto"></i>
           </div>
         </div>
 

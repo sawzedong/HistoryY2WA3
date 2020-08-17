@@ -5,11 +5,11 @@ import PageFooter from "../../components/Footer";
 import FootnoteCitation from "../../components/Citation/FootnoteCitation";
 import InTextCitation from "../../components/Citation/InTextCitation.js";
 
-import Figure2_1 from "../../img/Figure-2-1.jpg";
-import Figure2_2 from "../../img/Figure-2-2.jpg";
-import Figure2_3 from "../../img/Figure-2-3.png";
-import Figure2_4 from "../../img/Figure-2-4.png";
-import Figure2_5 from "../../img/Figure-2-5.png";
+import Figure2_1 from "../../img/population-changes/Figure-2-1.jpg";
+import Figure2_2 from "../../img/population-changes/Figure-2-2.jpg";
+import Figure2_3 from "../../img/population-changes/Figure-2-3.png";
+import Figure2_4 from "../../img/population-changes/Figure-2-4.png";
+import Figure2_5 from "../../img/population-changes/Figure-2-5.png";
 
 export default function Changes_Population() {
   return (
@@ -25,7 +25,9 @@ export default function Changes_Population() {
 
         <h2 className="py-3">Change in Focus of Policies</h2>
 
-        <h3 className="py-2">Phase 1: Decreasing Population Growth</h3>
+        <h3 className="py-2">
+          <u>Phase 1: Decreasing Population Growth</u>
+        </h3>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
@@ -34,7 +36,7 @@ export default function Changes_Population() {
               <img
                 src={Figure2_1}
                 className="responsive-poster"
-                alt="Poster Reading One, two - and that's ideal : Sterilisation - the best method for family limitation. "
+                alt="Poster Reading One, two - and that's ideal : Sterilisation - the best method for family limitation."
               />
               <br />
               <span>
@@ -42,13 +44,18 @@ export default function Changes_Population() {
                 <InTextCitation ID={1} />
               </span>
             </p>
-            <p className="text-paragraph">
-              "...in the stage of developing and the poverty is very high, there
-              are lot of members in the family and the country is not doing very
-              well and the population needs to be controlled...do not have a lot
-              of burden to the government"
-              <InTextCitation ID={2} /> <br />- Mr Cheong
-            </p>
+
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
+                "...in the stage of developing and the poverty is very high,
+                there are lot of members in the family and the country is not
+                doing very well and the population needs to be controlled...do
+                not have a lot of burden to the government"
+                <InTextCitation ID={2} />
+              </p>
+              <footer className="blockquote-footer">Mr Cheong</footer>
+            </blockquote>
+
             <p className="text-paragraph">
               The population policies initially discouraged couples to give
               birth to more children and to stop at having 2 children, in order
@@ -63,12 +70,12 @@ export default function Changes_Population() {
               family limitation."
             </p>
           </div>
-          <div className="col-lg-4">
-            {/* <img src={CPFImg} className="img-fluid" alt="CPF Logo" /> */}
-          </div>
+          <div className="col-lg-4"></div>
         </div>
 
-        <h3 className="py-2">Phase 2: Increasing Population</h3>
+        <h3 className="py-2">
+          <u>Phase 2: Increasing Population</u>
+        </h3>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
@@ -85,21 +92,28 @@ export default function Changes_Population() {
                 <InTextCitation ID={3} />
               </span>
             </p>
-            <p className="text-paragraph">
-              "Children bring joy to the family. To support couples in their
-              decision to have more children, the Child Development Co-Savings
-              (Baby Bonus) Scheme helps to lighten the financial costs of
-              raising children...includes a cash gift and contributions to the
-              Child Development Account (CDA)."
-              <InTextCitation ID={4} /> <br />- Ministry of Social and Family
-              Development
-            </p>
-            <p className="text-paragraph">
-              "The government is swinging to really try and encourage more
-              families to have more children. So it's not just for families to
-              have children, but families to have more and more. "
-              <InTextCitation ID={5} /> <br />- Mr Emmanuel
-            </p>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
+                "Children bring joy to the family. To support couples in their
+                decision to have more children, the Child Development Co-Savings
+                (Baby Bonus) Scheme helps to lighten the financial costs of
+                raising children...includes a cash gift and contributions to the
+                Child Development Account (CDA)."
+                <InTextCitation ID={4} />
+              </p>
+              <footer className="blockquote-footer">
+                Ministry of Social and Family Development
+              </footer>
+            </blockquote>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
+                "The government is swinging to really try and encourage more
+                families to have more children. So it's not just for families to
+                have children, but families to have more and more."
+                <InTextCitation ID={5} />
+              </p>
+              <footer className="blockquote-footer">Mr Emmanuel</footer>
+            </blockquote>
             <p className="text-paragraph">
               "Children. Life Would Be Empty Without Them" policy as well as
               giving Incentives for having babies in Singapore—Baby Bonus
@@ -119,14 +133,19 @@ export default function Changes_Population() {
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>Attracting Migrants</h4>
-            <p className="text-paragraph">
-              "The new Contact Singapore is a strategic alliance…to attract
-              global talent to work, invest and live in Singapore. ...because we
-              have kept our labour market flexible and companies could get the
-              manpower and talent they needed to grow. Talent is therefore a key
-              imperative for continued growth. "
-              <InTextCitation ID={6} /> <br />- Ministry of Manpower
-            </p>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
+                "The new Contact Singapore is a strategic alliance…to attract
+                global talent to work, invest and live in Singapore. ...because
+                we have kept our labour market flexible and companies could get
+                the manpower and talent they needed to grow. Talent is therefore
+                a key imperative for continued growth."
+                <InTextCitation ID={6} />
+              </p>
+              <footer className="blockquote-footer">
+                Ministry of Manpower
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               Singapore has launched out Contact Singapore in hopes of
               attracting more people to migrate to aid Singapore in her
@@ -140,21 +159,25 @@ export default function Changes_Population() {
             </p>
           </div>
           <div className="col-lg-4">
-            {/* <img src={CPFImg} className="img-fluid" alt="CPF Logo" /> */}
           </div>
         </div>
 
         <h2 className="py-3">Reasons of Change</h2>
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
-            <p className="text-paragraph">
+          <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
               "...the Singaporean population is beginning to age and decline.
               Without a growing, reliable workforce, Singapore will not be able
               to achieve economic growth, which is crucial for creating more
               jobs and growing wages."
-              <InTextCitation ID={7} />
-              <br />- Kirsten Han
-            </p>
+                <InTextCitation ID={7} />
+              </p>
+              <footer className="blockquote-footer">
+                Kirsten Han <cite title="Source Title">in a blog</cite>
+              </footer>
+            </blockquote>
+            
             <p className="text-paragraph">
               The government has recognised that a decline in birth rates would
               lead to future economic problems and affect replacement rates as

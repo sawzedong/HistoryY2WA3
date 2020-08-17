@@ -5,14 +5,14 @@ import PageFooter from "../../components/Footer";
 import FootnoteCitation from "../../components/Citation/FootnoteCitation";
 import InTextCitation from "../../components/Citation/InTextCitation.js";
 
-import Figure3_1 from "../../img/Figure-3-1.png";
-import Figure3_2 from "../../img/Figure-3-2.png";
-import Figure3_3 from "../../img/Figure-3-3.png";
-
-import EDB from "../../img/EDB.png"
-import JTC from "../../img/JTC.png"
-import MAS from "../../img/MAS.jpeg"
-import NCB from "../../img/NCB.png"
+import EDBImg from "../../img/economic-changes/economic-development-board.png"
+import JTCImg from "../../img/economic-changes/jurong-town-corporation.png"
+import MASImg from "../../img/economic-changes/monetary-authority-of-singapore.png"
+import NCBImg from "../../img/economic-changes/national-computer-board.png"
+import SIJORIImg from "../../img/economic-changes/singapore-johor-riau.png"
+import Figure3_1 from "../../img/economic-changes/Figure-3-1.png";
+import Figure3_2 from "../../img/economic-changes/Figure-3-2.png";
+import Figure3_3 from "../../img/economic-changes/Figure-3-3.png";
 
 export default function Changes_Economic() {
   return (
@@ -27,11 +27,12 @@ export default function Changes_Economic() {
 
         <h2 className="py-3">Change in Focus of Policies</h2>
 
-        <h3 className="py-2">Phase 1: Manufacturing Industries</h3>
+        <h3 className="py-2"><u>Phase 1: Manufacturing Industries</u></h3>
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>Economic Expansion Incentives Act</h4>
-            <p className="text-paragraph">
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
               Bill No. 32/1967
               <br />
               "An Act to amend and consolidate the laws relating to incentives
@@ -40,9 +41,12 @@ export default function Changes_Economic() {
               and to repeal the Pioneer Industries (Relief from Income Tax)
               Ordinance, 1959 (No. 1 of 1959) and the Industrial Expansion
               (Relief from Income Tax) Ordinance, 1959 (No. 2 of 1959). "
-              <InTextCitation ID={1} />
-              <br />- Singapore Statutes Online
-            </p>
+                <InTextCitation ID={1} />
+              </p>
+              <footer className="blockquote-footer">
+                Singapore Statutes Online
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               An Act to amend and consolidate the laws relating to incentives
               for the establishment of pioneer industries and for economic
@@ -52,13 +56,16 @@ export default function Changes_Economic() {
               (Relief from Income Tax) Ordinance, 1959 (No. 2 of 1959).
             </p>
           </div>
-          <div className="col-lg-4"></div>
+          <div className="col-lg-4 row">
+          <i className="fas fa-gavel fa-7x py-4 mx-auto my-auto"></i>
+          </div>
         </div>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>Economic Development Board</h4>
-            <p className="text-paragraph">
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
               "The aim for the board was to tackle the high unemployment rate. A
               comprehensive industrialization programme is provided for locals
               to train them for their jobs. In the late 1960s, the EDB
@@ -67,9 +74,12 @@ export default function Changes_Economic() {
               industries. The country’s focus shifted towards export
               manufacturing, internationalisation and attracting foreign
               investments."
-              <InTextCitation ID={2} />
-              <br />- NLB Resource
-            </p>
+                <InTextCitation ID={2} />
+              </p>
+              <footer className="blockquote-footer">
+                NLB E-Resource
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               The Economic Development programmes helped equip the locals with
               basic skills to prepare them for the jobs in the manufacturing
@@ -84,21 +94,26 @@ export default function Changes_Economic() {
             </p>
           </div>
           <div className="col-lg-4 row">
-            <img src={EDB} className="img-fluid my-auto col-12" alt="EDB logo"/>
+            <img src={EDBImg} className="sidebar-img mx-auto my-auto" alt="EDB logo"/>
           </div>
         </div>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>State Development Plan and Jurong Town Corporation</h4>
-            <p className="text-paragraph">
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
               "The plan aimed to solve the pressing issues of economic
               stagnation and high unemployment rate through an expansion in
               manufacturing."
-              <InTextCitation ID={3} />
-              <br />- NLB Resource
-            </p>
-            <p className="text-paragraph">
+                <InTextCitation ID={3} />
+              </p>
+              <footer className="blockquote-footer">
+                NLB E-Resource
+              </footer>
+            </blockquote>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
               "The JTC is the principal developer and manager of industrial
               estates and their related facilities. It was set up in 1968 under
               the Jurong Town Corporation act. By the end of 1969, JTC had
@@ -106,9 +121,12 @@ export default function Changes_Economic() {
               114 ac (0.5 sq km) of land for the expansion of the Kranji and
               Sungei Kadut industrial estates. This led to an increase in the
               number of operational factories in Jurong."
-              <InTextCitation ID={4} />
-              <br />- NLB Resource
-            </p>
+                <InTextCitation ID={4} />
+              </p>
+              <footer className="blockquote-footer">
+                NLB E-Resource
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               From these 2 sources, the state development plan and the Jurong
               Town Corporation helps to develop Singapore’s industrial estates.
@@ -121,23 +139,27 @@ export default function Changes_Economic() {
             </p>
           </div>
           <div className="col-lg-4 row">
-          <img src={JTC} className="img-fluid my-auto col-12" alt="JTC logo"/>
+          <img src={JTCImg} className="sidebar-img mx-auto my-auto" alt="JTC logo"/>
           </div>
         </div>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>Economic Monitoring Organisations</h4>
-            <p className="text-paragraph">
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
               "It manages Singapore’s exchange rate, official foreign reserves,
               and liquidity in the banking sector. MAS also works with the
               financial industry to promote Singapore as a dynamic international
               financial centre. It facilitates the development of
               infrastructure, adoption of technology, and upgrading of skills in
               the financial industry."
-              <InTextCitation ID={5} />
-              <br />- Monetary Authority of Singapore
-            </p>
+                <InTextCitation ID={5} />
+              </p>
+              <footer className="blockquote-footer">
+                Monetary Authority of Singapore
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               The establishment of the Monetary Authority of Singapore helped to
               regulate the value of Singapore’s currency. This gives confidence
@@ -151,25 +173,29 @@ export default function Changes_Economic() {
             </p>
           </div>
           <div className="col-lg-4 row">
-          <img src={MAS} className="img-fluid my-auto col-12" alt="MAS logo"/>
+          <img src={MASImg} className="sidebar-img mx-auto my-auto" alt="MAS logo"/>
           </div>
         </div>
 
-        <h3 className="py-2">Phase 2: Skill- and Capital-Based Industries</h3>
+        <h3 className="py-2 text-underline"><u>Phase 2: Skill- and Capital-Based Industries</u></h3>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>Correction Wage Policy</h4>
-            <p className="text-paragraph">
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
               "The corrective wage policy was recommended in 1979 as a part of
               the overall strategy to shift the economy to skill-intensive,
               middle technology and higher value-added industries and services.
               To ensure continuing success in economic restructuring, the NWC
               recommends that the corrective wage policy of the last 2 years be
-              pursued for this year as was originally intended"
-              <InTextCitation ID={6} />
-              <br />- National Wage Council
-            </p>
+              pursued for this year as was originally intended."
+                <InTextCitation ID={6} />
+              </p>
+              <footer className="blockquote-footer">
+                National Wage Council
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               By the 1980s, the industrialization phase of Singapore was slowing
               down which essentially slowed down economic growth. In order to
@@ -183,21 +209,27 @@ export default function Changes_Economic() {
               from a labour intensive one to a skill based economy.
             </p>
           </div>
-          <div className="col-lg-4"></div>
+          <div className="col-lg-4 row text-center">
+            <i className="fas fa-money-check-alt fa-7x py-4 mx-auto my-auto"></i>
+          </div>
         </div>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
             <h4>National Computer Board</h4>
-            <p className="text-paragraph">
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
               "The agency was the National Computer Board (NCB). It was set up
               in September 1981 to perform three main statutory functions:
               Computerised Singapore’s Civil Service, coordinate computer
               education and training, and develop the local computer services
               industry."
-              <InTextCitation ID={7} />
-              <br />- Straits Times News Article
-            </p>
+                <InTextCitation ID={7} />
+              </p>
+              <footer className="blockquote-footer">
+                Straits Times News Article
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               Since the world is getting more technologically advanced from the
               start of the 1980s, Singapore needs the workforce to be more
@@ -205,19 +237,20 @@ export default function Changes_Economic() {
               This will greatly benefit Singapore as more economic sectors are
               starting to be more reliant on technology. Equipping Singapore’s
               working population with technology skills allow them to adapt to
-              the new, and provides SIngapore to have opportunities to create
+              the new, and provides Singapore to have opportunities to create
               new jobs that are related to technology.
             </p>
           </div>
           <div className="col-lg-4 row">
-          <img src={NCB} className="fit-full-img" alt="NCB logo"/>
+          <img src={NCBImg} className="sidebar-img mx-auto my-auto" alt="NCB logo"/>
           </div>
         </div>
 
         <div className="info-category py-3 row w-100">
           <div className="col-lg-8 col-md-10">
-            <h4>Singapore-Johor-Riau(SIJORI)</h4>
-            <p className="text-paragraph">
+            <h4>Singapore-Johor-Riau (SIJORI)</h4>
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
               "The Singapore-Johor-Riau (SIJORI) growth triangle was initiated
               in the early 1990s to relocate Singapore’s investments in
               manufacturing to nearby areas of Johor in Malaysia and the Bintan
@@ -225,9 +258,12 @@ export default function Changes_Economic() {
               acted as the main financial center of the triangle, while the
               Johor and Riau areas provided the labor force for the
               manufacturing processes"
-              <InTextCitation ID={8} />
-              <br />- Singapore Government
-            </p>
+                <InTextCitation ID={8} />
+              </p>
+              <footer className="blockquote-footer">
+                Woo Jun Jie, LKY School of Public Policy
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               The Singapore-Johor-Riau (SIJORI) growth triangle helps companies
               shift their manufacturing operations from Singapore to
@@ -238,7 +274,9 @@ export default function Changes_Economic() {
               manufacturing industries.{" "}
             </p>
           </div>
-          <div className="col-lg-4"></div>
+          <div className="col-lg-4 row">
+          <img src={SIJORIImg} className="sidebar-img mx-auto my-auto border-black" alt="Map of SIJORI"/>
+          </div>
         </div>
 
         <h2 className="py-3">Reasons of Change</h2>
@@ -275,7 +313,8 @@ export default function Changes_Economic() {
               surrounding regions of Malaysia and Indonesia which were still
               mostly made up of low-skilled and low wage workers.
             </p>
-            <p className="text-paragraph">
+            <blockquote className="blockquote">
+              <p className="text-paragraph mb-0">
               "In 1985, Singapore experienced its first post-independence
               recession. Prior to the economic decline, Singapore had been
               enjoying a continuous GDP growth of 8.5 percent per year. Early
@@ -290,9 +329,12 @@ export default function Changes_Economic() {
               the retrenchment of workers, Singapore’s unemployment figure rose
               to 4.1 percent in June 1985 from 2.9 percent in the previous four
               years."
-              <InTextCitation ID={10} />
-              <br />- SG History
-            </p>
+                <InTextCitation ID={10} />
+              </p>
+              <footer className="blockquote-footer">
+                NLB E-Resource
+              </footer>
+            </blockquote>
             <p className="text-paragraph">
               In 1984, there were also signs of a slowing economy. To make sure
               that Singapore’s economy continues to grow at a steady pace, the
@@ -326,7 +368,7 @@ export default function Changes_Economic() {
               come and invest in Singapore, and create manufacturing hubs in
               Singapore. The sharp increase in Singapore’s GDP growth shows the
               efforts Singapore has taken to ensure that MNCs are interested in
-              setting up factories in SIngapore. In the 1970s, the refinement of
+              setting up factories in Singapore. In the 1970s, the refinement of
               the policies implemented in the 1960s and addition of the Monetary
               Authority of Singapore (MAS) helped to boost the confidence of
               MNCs being based in Singapore. This helped to boost Singapore’s
@@ -350,7 +392,7 @@ export default function Changes_Economic() {
               down. This slowed down the growth of the economy. As such,
               Singapore had to move on to a new phase of economic development
               and also adapt her economy to better position itself in the
-              future. The technological policies help SIngapore to plan her
+              future. The technological policies help Singapore to plan her
               economy for the future, which greatly benefitted Singapore. Over
               the course of history, the policies Singapore implemented helped
               Singapore to adapt her economy, and increase the growth of
